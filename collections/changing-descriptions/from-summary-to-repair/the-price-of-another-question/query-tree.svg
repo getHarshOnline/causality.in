@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="480" viewBox="0 0 420 480" role="img" aria-labelledby="query-title query-desc">
+  <title id="query-title">Paying for a complete answer</title>
+  <desc id="query-desc">Ask whether the state is A for one unit. Yes identifies A at total cost one. No leads to the B question for two more units, identifying either B or C at total cost three.</desc>
+  <g fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5">
+    <path d="M155 103H265 M210 115V155 M72 211V155H282V211"/>
+    <path d="M68 205L72 211L76 205 M278 205L282 211L286 205"/>
+    <path d="M227 279H337 M282 291V331 M214 390V331H350V390"/>
+    <path d="M210 384L214 390L218 384 M346 384L350 390L354 384"/>
+  </g>
+  <g fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" text-anchor="middle">
+    <text x="210" y="61" font-size="24">Is it A?</text>
+    <text x="210" y="89">Cost 1</text>
+    <text x="49" y="187">yes</text><text x="305" y="187">no</text>
+    <text x="282" y="237" font-size="24">Is it B?</text>
+    <text x="282" y="265">Cost 2 more</text>
+    <text x="191" y="365">yes</text><text x="373" y="365">no</text>
+    <text x="72" y="267">Total 1</text>
+    <text x="214" y="446">Total 3</text><text x="350" y="446">Total 3</text>
+  </g>
+  <g fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, monospace)" font-size="28" text-anchor="middle">
+    <text x="72" y="240">A</text><text x="214" y="419">B</text><text x="350" y="419">C</text>
+  </g>
+</svg>

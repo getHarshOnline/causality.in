@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="700" viewBox="0 0 420 700" role="img" aria-labelledby="observation-title observation-desc">
+  <title id="observation-title">Reading three bits, one coordinate at a time</title>
+  <desc id="observation-desc">Reading a separates two classes. One rotation reveals b and separates four; a second reveals c and identifies each of the eight original states. Branch labels give the newly read bit.</desc>
+  <g fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5">
+    <path d="M90 220H133.0 M176 140H133.0V300H176"/>
+    <path d="M171 136L176 140L171 144"/>
+    <path d="M171 296L176 300L171 304"/>
+    <path d="M90 540H133.0 M176 460H133.0V620H176"/>
+    <path d="M171 456L176 460L171 464"/>
+    <path d="M171 616L176 620L171 624"/>
+    <path d="M242 140H285.0 M328 100H285.0V180H328"/>
+    <path d="M323 96L328 100L323 104"/>
+    <path d="M323 176L328 180L323 184"/>
+    <path d="M242 300H285.0 M328 260H285.0V340H328"/>
+    <path d="M323 256L328 260L323 264"/>
+    <path d="M323 336L328 340L323 344"/>
+    <path d="M242 460H285.0 M328 420H285.0V500H328"/>
+    <path d="M323 416L328 420L323 424"/>
+    <path d="M323 496L328 500L323 504"/>
+    <path d="M242 620H285.0 M328 580H285.0V660H328"/>
+    <path d="M323 576L328 580L323 584"/>
+    <path d="M323 656L328 660L323 664"/>
+  </g>
+  <g fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" text-anchor="middle">
+    <text x="58" y="30">Read a</text>
+    <text x="58" y="57" font-size="18">0 rotations</text>
+    <text x="210" y="30">Read b</text>
+    <text x="210" y="57" font-size="18">1 rotation</text>
+    <text x="362" y="30">Read c</text>
+    <text x="362" y="57" font-size="18">2 rotations</text>
+  </g>
+  <g fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, monospace)" font-size="20" text-anchor="middle">
+    <text x="154.5" y="130">0</text>
+    <text x="154.5" y="290">1</text>
+    <text x="154.5" y="450">0</text>
+    <text x="154.5" y="610">1</text>
+    <text x="306.5" y="90">0</text>
+    <text x="306.5" y="170">1</text>
+    <text x="306.5" y="250">0</text>
+    <text x="306.5" y="330">1</text>
+    <text x="306.5" y="410">0</text>
+    <text x="306.5" y="490">1</text>
+    <text x="306.5" y="570">0</text>
+    <text x="306.5" y="650">1</text>
+    <text x="58" y="227">0??</text>
+    <text x="58" y="547">1??</text>
+    <text x="210" y="147">00?</text>
+    <text x="210" y="307">01?</text>
+    <text x="210" y="467">10?</text>
+    <text x="210" y="627">11?</text>
+    <text x="362" y="107">000</text>
+    <text x="362" y="187">001</text>
+    <text x="362" y="267">010</text>
+    <text x="362" y="347">011</text>
+    <text x="362" y="427">100</text>
+    <text x="362" y="507">101</text>
+    <text x="362" y="587">110</text>
+    <text x="362" y="667">111</text>
+  </g>
+</svg>

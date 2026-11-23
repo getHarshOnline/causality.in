@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="810" viewBox="0 0 420 810" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">Joint laws and their pairwise marginals</title><desc id="figure-desc">The even law gives probability one quarter to 000, 011, 101 and 110. The odd law gives one quarter to the other four states. Every two-bit marginal is uniform under both laws.</desc>
+<rect x="20" y="21" width="23" height="12" fill="var(--color-accent, #215a83)"/>
+<text x="116" y="34" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Even parity</text>
+<rect x="230" y="21" width="23" height="12" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="322" y="34" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Odd parity</text>
+<text x="210" y="88" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">All three bits</text>
+<text x="57" y="141" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">000</text>
+<rect x="100" y="122" width="240" height="10" fill="var(--color-accent, #215a83)" stroke="var(--color-accent, #215a83)" stroke-width="1.5"/>
+<text x="57" y="181" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">001</text>
+<rect x="100" y="178" width="240" height="10" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="57" y="221" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">010</text>
+<rect x="100" y="218" width="240" height="10" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="57" y="261" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">011</text>
+<rect x="100" y="242" width="240" height="10" fill="var(--color-accent, #215a83)" stroke="var(--color-accent, #215a83)" stroke-width="1.5"/>
+<text x="57" y="301" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">100</text>
+<rect x="100" y="298" width="240" height="10" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="57" y="341" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">101</text>
+<rect x="100" y="322" width="240" height="10" fill="var(--color-accent, #215a83)" stroke="var(--color-accent, #215a83)" stroke-width="1.5"/>
+<text x="57" y="381" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">110</text>
+<rect x="100" y="362" width="240" height="10" fill="var(--color-accent, #215a83)" stroke="var(--color-accent, #215a83)" stroke-width="1.5"/>
+<text x="57" y="421" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">111</text>
+<rect x="100" y="418" width="240" height="10" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M100 112V440H350 M340 440V446" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="100" y="471" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">0</text>
+<text x="340" y="471" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">0.25</text>
+<text x="220" y="504" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Probability</text>
+<text x="210" y="550" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Any pair of bits</text>
+<text x="57" y="596" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">00</text>
+<rect x="100" y="577" width="240" height="10" fill="var(--color-accent, #215a83)"/>
+<rect x="100" y="593" width="240" height="10" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="57" y="636" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">01</text>
+<rect x="100" y="617" width="240" height="10" fill="var(--color-accent, #215a83)"/>
+<rect x="100" y="633" width="240" height="10" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="57" y="676" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">10</text>
+<rect x="100" y="657" width="240" height="10" fill="var(--color-accent, #215a83)"/>
+<rect x="100" y="673" width="240" height="10" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="57" y="716" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">11</text>
+<rect x="100" y="697" width="240" height="10" fill="var(--color-accent, #215a83)"/>
+<rect x="100" y="713" width="240" height="10" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M100 567V734H350 M340 734V740" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="100" y="765" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">0</text>
+<text x="340" y="765" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">0.25</text>
+<text x="220" y="800" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Probability</text>
+</svg>

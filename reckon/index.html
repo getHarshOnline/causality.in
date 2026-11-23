@@ -1,0 +1,1568 @@
+
+<!doctype html>
+
+<html lang="en" data-page-mode="product" data-footer-treatment="colophon">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta name="color-scheme" content="light dark">
+
+  
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#edf0ee">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141b20">
+  
+  <title>Reckon</title>
+  <meta property="og:title" content="Reckon">
+  <meta property="og:type" content="website">
+  
+  <meta name="description" content="Measure what memory changes for its cost, and compare proposed improvements before deciding to use them.">
+  <meta property="og:description" content="Measure what memory changes for its cost, and compare proposed improvements before deciding to use them.">
+  
+
+  <script>try{var s=window.localStorage,e=document.documentElement,m=s.getItem("color-mode"),r=s.getItem("motion-preference");if(m==="light"||m==="dark"||m==="system")e.setAttribute("data-mode",m);if(r==="reduce"||r==="allow")e.setAttribute("data-motion",r)}catch(x){}</script>
+
+  
+  <link rel="canonical" href="https:&#x2F;&#x2F;causality.in&#x2F;reckon&#x2F;">
+  <meta property="og:url" content="https:&#x2F;&#x2F;causality.in&#x2F;reckon&#x2F;">
+  
+  
+  <link rel="alternate" type="text&#x2F;markdown" href="https:&#x2F;&#x2F;causality.in&#x2F;reckon&#x2F;index.md">
+  
+
+  
+    
+  <link rel="alternate" type="application&#x2F;atom+xml" title="Some questions need another description." href="https:&#x2F;&#x2F;causality.in&#x2F;feed.xml">
+    
+  <link rel="alternate" type="application&#x2F;feed+json" title="Some questions need another description." href="https:&#x2F;&#x2F;causality.in&#x2F;feed.json">
+    
+  <link rel="alternate" type="application&#x2F;rss+xml" title="Some questions need another description." href="https:&#x2F;&#x2F;causality.in&#x2F;rss.xml">
+    
+  
+
+  
+    
+  <link rel="icon" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;site-icon-placeholder.svg">
+    
+  
+  
+
+
+
+
+
+
+    
+    
+      
+    
+      
+    
+      
+  <meta name="tdm-reservation" content="1">
+  <meta name="tdm-policy" content="https:&#x2F;&#x2F;causality.in&#x2F;terms&#x2F;">
+      
+    
+      
+  <link rel="manifest" href="https:&#x2F;&#x2F;causality.in&#x2F;manifest.webmanifest">
+      
+    
+  
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  <link rel="preload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+  
+    
+  
+    
+  <link rel="preload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;martian-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+  
+    
+  <link rel="preload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;ibm-plex-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;physics.css">
+    
+  
+    
+  
+    
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;lattice-tokens.css">
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;lattice.css">
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+
+  
+  <script type="importmap">{"imports":{"@base/analytics":"https://causality.in/assets/analytics-sdk.js","@base/field-sequence":"https://causality.in/assets/field-sequence.js","@base/search":"https://causality.in/assets/search.js","@base/search-sdk":"https://causality.in/assets/search-sdk.js","@base/settings":"https://causality.in/assets/settings.js","@base/video-reveal":"https://causality.in/assets/video-reveal.js","@base/webmcp":"https://causality.in/assets/webmcp-sdk.js","@motion-preference":"https://causality.in/assets/motion-preference.js"}}</script>
+    
+    
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;analytics-consent.js" fetchpriority="low">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;analytics-sdk.js" fetchpriority="low">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;enquiry-context.js" fetchpriority="low">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;process-path.js">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;settings.js">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;shell.js">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;webmcp.js" fetchpriority="low">
+    
+  
+
+  
+  <script type="application/json" id="search-corpus">{"fields":["title","description","keywords","route","body","notes"],"output":"search.json","page":{"content":{"attributions":[{"principal":"person:harsh","role":"author"}],"description":"Find pages, articles and collections from Causality.","id":"content:causality-search","language":"en","lifecycle":"published","listing":true,"presentation":{"theme":"theme:lattice"},"resolved_route":{"aliases":[],"canonical_url":"https://causality.in/search/","mirrors":[],"output":"search/index.html","public_url":"https://causality.in/search/","url":"https://causality.in/search/"},"route":{"aliases":[],"mirrors":[],"path":"/search/"},"site":"site:causality","slug":"search","structure":{"family":{"kind":"index"},"kind":"page"},"title":"Search"},"route":{"aliases":[],"canonical_url":"https://causality.in/search/","mirrors":[],"output":"search/index.html","public_url":"https://causality.in/search/","url":"https://causality.in/search/"}},"profile":"english","route":"/search.json","url":"https://causality.in/search.json"}</script>
+  
+
+  
+  
+    
+      
+      
+    
+    
+    
+  
+  
+
+<script type="application/json" id="enquiry-context">{"source":{"site":"site:causality","content":"content:causality-project-reckon","url":"https://causality.in/reckon/"},"destination":{"site":"site:rawthoughts","content":"content:rawthoughts-services","url":"https://rawthoughts.in/services/"},"copy":{"subject":"Enquiry from {page}","heading":"About this enquiry","page":"Page","button":"Link","actions":{"services-footer":"Services link in the footer","services-invitation":"Services invitation","services-link":"Link to Services","enquiry-email":"Services enquiry" } } }</script>
+
+
+
+  
+
+
+<script type="application/json" id="webmcp-binding">{"binding":{"contract":"publication-webmcp-v1","tools":["current_page","search"]},"currentPage":{"body_text":"Reckon\nWhat should an agent keep when it has room for only a few records? Reckon measures what changes outcomes for what it costs, with the uncertainty shown. The laboratory runs locally for Causality’s research. The problem in front is serving RawThoughts’ agent tools with the same comparison, so a proposed improvement can be compared before anyone decides to use it. The cases for that comparison come from Pale\u0027s genealogy, its history of what each agent was given, what it did and what followed; the laboratory here runs without it.\nUse the local laboratory to compare two replay budgets or inspect a saved run.\nKeep useful experience. Understand what it changed.\nAn early clue can matter several steps later. Run the same task with different memory rules or limits, then follow the surviving records into the outcome.\nTo find out whether one record helped, compare runs with that instance present and absent. Report the cost of finding out alongside the outcome difference. The comparison tests one change under stated conditions; a causal claim also needs the assumptions that support that interpretation.\nFollow what a memory changes\nGive the same classifier room for 2 examples or 16. Compare its accuracy on earlier tasks, then investigate which memory choices made a difference.\nFollow the record\nFollow a record from when it was written to when it was read, scored or removed. Use the saved result to see how the task performed.\nChange the memory\nChange the space available, the retention rule or the presence of one record. Keep the other conditions fixed so the comparison answers the question you chose.\nCompare the useful result\nCompare accuracy or reward for each pair. When you test a policy or a record, report the uncertainty and what it cost to measure the difference, as well as the task\u0027s memory use.\nQuestions about Reckon\nHow do Reckon’s wider roles relate to the laboratory?\nA correction can become a case for testing a better method. Reckon connects the case, comparison and owner\u0027s decision while keeping ordinary evaluation useful on its own. Cases, evaluations and decisions follows that wider use.\nWhat does the laboratory show?\nIt is for finding which retained records mattered and what keeping them cost: the saved result gives accuracy or reward, and the log shows which memory operations wrote, read or dropped records. The laboratory guide explains how to follow those records and test a particular contribution.\nIs every contribution score causal?\nA causal claim needs a test that changes the record as intended, states the assumptions and keeps the other conditions fixed. Use a score to help choose what to keep, and use an outcome comparison to test what a record did. The cache example works through that reasoning.\nDoes Reckon own HENA’s or Scope’s memory?\nHENA keeps its own swarm store and decides what to keep; Scope keeps only context derived from what Pale and Weave hold. Reckon runs a separate lab. Its wider services concern experiment inputs, results and decisions.\nHow do I run the laboratory?\nThe lab runs on your own machine. Start with the laboratory guide, then compare two replay budgets.\n","content":{"attributions":[{"principal":"person:harsh","role":"author"}],"description":"Measure what memory changes for its cost, and compare proposed improvements before deciding to use them.","documentation":true,"id":"content:causality-project-reckon","language":"en","lifecycle":"published","presentation":{"theme":"theme:lattice"},"resolved_route":{"aliases":[],"canonical_url":"https://causality.in/reckon/","mirrors":[],"output":"reckon/index.html","public_url":"https://causality.in/reckon/","url":"https://causality.in/reckon/"},"route":{"aliases":[],"mirrors":[],"path":"/reckon/"},"site":"site:causality","structure":{"kind":"collection","purpose":"documentation"},"title":"Reckon"},"route":{"aliases":[],"canonical_url":"https://causality.in/reckon/","mirrors":[],"output":"reckon/index.html","public_url":"https://causality.in/reckon/","url":"https://causality.in/reckon/"}},"search":{"fields":["title","description","keywords","route","body","notes"],"output":"search.json","page":{"content":{"attributions":[{"principal":"person:harsh","role":"author"}],"description":"Find pages, articles and collections from Causality.","id":"content:causality-search","language":"en","lifecycle":"published","listing":true,"presentation":{"theme":"theme:lattice"},"resolved_route":{"aliases":[],"canonical_url":"https://causality.in/search/","mirrors":[],"output":"search/index.html","public_url":"https://causality.in/search/","url":"https://causality.in/search/"},"route":{"aliases":[],"mirrors":[],"path":"/search/"},"site":"site:causality","slug":"search","structure":{"family":{"kind":"index"},"kind":"page"},"title":"Search"},"route":{"aliases":[],"canonical_url":"https://causality.in/search/","mirrors":[],"output":"search/index.html","public_url":"https://causality.in/search/","url":"https://causality.in/search/"}},"profile":"english","route":"/search.json","url":"https://causality.in/search.json"}}</script>
+
+
+
+  
+  
+  
+    
+  
+  
+    
+    
+  
+  
+  
+    
+  
+    
+  <script type="module" src="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;shell.js"></script>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  <script type="module" src="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;enquiry-context.js" async fetchpriority="low"></script>
+    
+  
+    
+  <script type="module" src="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;webmcp.js" async fetchpriority="low"></script>
+    
+  
+  
+  
+  <script type="module" src="https:&#x2F;&#x2F;causality.in&#x2F;gazette&#x2F;islands&#x2F;446f4cae76ebaf4fbe3792b9090f4ba62b45be05c325a801878584392c4f7fc7.js"></script>
+  
+
+  
+  <script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download], [rel~=nofollow], [data-no-prefetch], [href*='#']"}}]},"eagerness":"moderate"}]}</script>
+
+  
+  <script type="application/ld+json">{"@context":{"@version":1.1,"@vocab":"https://schema.org/","url":{"@id":"https://schema.org/url","@type":"@id"}},"@id":"https://causality.in/reckon/","@type":"CollectionPage","about":[{"@id":"https://causality.in/reckon/#entity","@type":"SoftwareApplication","identifier":"project:reckon","name":"Reckon","subjectOf":[{"@id":"https://causality.in/reckon/","@type":"CollectionPage","identifier":"content:causality-project-reckon","name":"Reckon","url":"https://causality.in/reckon/"},{"@id":"https://causality.in/reckon/understand-the-memory-laboratory/#article","@type":"TechArticle","identifier":"content:reckon-docs","name":"Understand the memory laboratory","url":"https://causality.in/reckon/understand-the-memory-laboratory/"},{"@id":"https://causality.in/reckon/mentions/","@type":"CollectionPage","identifier":"content:reckon-mentions","name":"Reckon mentions","url":"https://causality.in/reckon/mentions/"},{"@id":"https://docs.causality.in/reckon/overview","@type":"WebPage","name":"The Reckon laboratory manual","url":"https://docs.causality.in/reckon/overview"}]}],"author":[{"@id":"https://getharsh.in/#person","@type":"Person","identifier":"person:harsh","name":"Harsh Joshi","sameAs":[{"@id":"https://github.com/getHarsh"},{"@id":"https://www.linkedin.com/in/getharsh/"}],"url":"https://getharsh.in/"}],"creativeWorkStatus":"published","description":"Measure what memory changes for its cost, and compare proposed improvements before deciding to use them.","hasPart":[{"@id":"https://causality.in/reckon/cases-evaluations-and-decisions/#article","@type":"Article","identifier":"content:reckon-cases-evaluations-and-decisions","name":"Cases, evaluations and decisions","url":"https://causality.in/reckon/cases-evaluations-and-decisions/"},{"@id":"https://causality.in/reckon/compare-replay-budgets/#article","@type":"TechArticle","identifier":"content:reckon-compare-replay-budgets","name":"Compare two replay budgets","url":"https://causality.in/reckon/compare-replay-budgets/"},{"@id":"https://causality.in/reckon/understand-the-memory-laboratory/#article","@type":"TechArticle","identifier":"content:reckon-docs","name":"Understand the memory laboratory","url":"https://causality.in/reckon/understand-the-memory-laboratory/"},{"@id":"https://causality.in/reckon/inspect-an-exported-run/#article","@type":"TechArticle","identifier":"content:reckon-inspect-an-exported-run","name":"Inspect an exported run","url":"https://causality.in/reckon/inspect-an-exported-run/"},{"@id":"_:faq_0b6d26ce590df86951b7ee57e638d3a3e2d0567f97a5b889c7cc31fd9dc8a587","@type":"FAQPage","isPartOf":{"@id":"https://causality.in/reckon/","identifier":"content:causality-project-reckon"},"mainEntity":[{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"\u003cp\u003eA correction can become a case for testing a better method. Reckon connects the case, comparison and owner\u0027s decision while keeping ordinary evaluation useful on its own. \u003ca href=\"https://causality.in/reckon/cases-evaluations-and-decisions/\" data-gazette-link=\"content:causality-project-reckon#link-5\" data-gazette-destination-kind=\"internal-native\" data-gazette-destination-content=\"content:reckon-cases-evaluations-and-decisions\" data-gazette-destination-site=\"site:causality\" data-gazette-destination-relationships=\"collection-member\" data-gazette-destination-theme=\"theme:lattice\"\u003eCases, evaluations and decisions\u003c/a\u003e follows that wider use.\u003c/p\u003e\n"},"name":"How do Reckon’s wider roles relate to the laboratory?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"\u003cp\u003eIt is for finding which retained records mattered and what keeping them cost: the saved result gives accuracy or reward, and the log shows which memory operations wrote, read or dropped records. The \u003ca href=\"https://causality.in/reckon/understand-the-memory-laboratory/\" data-gazette-link=\"content:causality-project-reckon#link-6\" data-gazette-destination-kind=\"internal-native\" data-gazette-destination-content=\"content:reckon-docs\" data-gazette-destination-site=\"site:causality\" data-gazette-destination-relationships=\"collection-member\" data-gazette-destination-theme=\"theme:lattice\"\u003elaboratory guide\u003c/a\u003e explains how to follow those records and test a particular contribution.\u003c/p\u003e\n"},"name":"What does the laboratory show?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"\u003cp\u003eA causal claim needs a test that changes the record as intended, states the assumptions and keeps the other conditions fixed. Use a score to help choose what to keep, and use an outcome comparison to test what a record did. \u003ca href=\"https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/causal-inference-primer/\" data-gazette-link=\"content:causality-project-reckon#link-7\" data-gazette-destination-kind=\"internal-native\" data-gazette-destination-content=\"content:causality-causal-inference-primer\" data-gazette-destination-site=\"site:causality\" data-gazette-destination-theme=\"theme:lattice\"\u003eThe cache example\u003c/a\u003e works through that reasoning.\u003c/p\u003e\n"},"name":"Is every contribution score causal?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"\u003cp\u003e\u003ca href=\"https://causality.in/hena/\" data-gazette-link=\"content:causality-project-reckon#link-8\" data-gazette-destination-kind=\"internal-native\" data-gazette-destination-content=\"content:causality-project-hena\" data-gazette-destination-site=\"site:causality\" data-gazette-destination-theme=\"theme:lattice\"\u003eHENA\u003c/a\u003e keeps its own swarm store and decides what to keep; \u003ca href=\"https://rawthoughts.in/scope/\" data-gazette-link=\"content:causality-project-reckon#link-9\" data-gazette-destination-kind=\"cross-site\" data-gazette-destination-content=\"content:scope-introduction\" data-gazette-destination-site=\"site:rawthoughts\" data-gazette-destination-theme=\"theme:carrier\"\u003eScope\u003c/a\u003e keeps only context derived from what Pale and Weave hold. Reckon runs a separate lab. Its wider services concern experiment inputs, results and decisions.\u003c/p\u003e\n"},"name":"Does Reckon own HENA’s or Scope’s memory?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"\u003cp\u003eThe lab runs on your own machine. Start with \u003ca href=\"https://causality.in/reckon/understand-the-memory-laboratory/\" data-gazette-link=\"content:causality-project-reckon#link-10\" data-gazette-destination-kind=\"internal-native\" data-gazette-destination-content=\"content:reckon-docs\" data-gazette-destination-site=\"site:causality\" data-gazette-destination-relationships=\"collection-member\" data-gazette-destination-theme=\"theme:lattice\"\u003ethe laboratory guide\u003c/a\u003e, then \u003ca href=\"https://causality.in/reckon/compare-replay-budgets/\" data-gazette-link=\"content:causality-project-reckon#link-11\" data-gazette-destination-kind=\"internal-native\" data-gazette-destination-content=\"content:reckon-compare-replay-budgets\" data-gazette-destination-site=\"site:causality\" data-gazette-destination-relationships=\"collection-member\" data-gazette-destination-theme=\"theme:lattice\"\u003ecompare two replay budgets\u003c/a\u003e.\u003c/p\u003e\n"},"name":"How do I run the laboratory?"}]}],"identifier":"content:causality-project-reckon","inLanguage":"en","mentions":[{"@id":"https://causality.in/hena/#entity","@type":"CreativeWork","identifier":"project:hena","name":"HENA","subjectOf":[{"@id":"https://causality.in/hena/","@type":"CollectionPage","identifier":"content:causality-project-hena","name":"HENA","url":"https://causality.in/hena/"},{"@id":"https://causality.in/hena/how-units-form-a-collective/#article","@type":"TechArticle","identifier":"content:hena-docs","name":"How units form a collective","url":"https://causality.in/hena/how-units-form-a-collective/"},{"@id":"https://causality.in/hena/mentions/","@type":"CollectionPage","identifier":"content:hena-mentions","name":"HENA mentions","url":"https://causality.in/hena/mentions/"},{"@id":"https://docs.causality.in/hena/overview","@type":"WebPage","name":"HENA","url":"https://docs.causality.in/hena/overview"}]},{"@id":"https://rawthoughts.in/scope/#entity","@type":"SoftwareApplication","identifier":"project:scope","name":"Scope","subjectOf":[{"@id":"https://rawthoughts.in/scope/","@type":"CollectionPage","identifier":"content:scope-introduction","name":"Scope","url":"https://rawthoughts.in/scope/"},{"@id":"https://rawthoughts.in/scope/context-for-a-task/#article","@type":"TechArticle","identifier":"content:scope-docs","name":"Context for a task","url":"https://rawthoughts.in/scope/context-for-a-task/"},{"@id":"https://rawthoughts.in/scope/mentions/","@type":"CollectionPage","identifier":"content:scope-mentions","name":"Scope mentions","url":"https://rawthoughts.in/scope/mentions/"},{"@id":"https://docs.rawthoughts.in/scope/overview"}]}],"name":"Reckon","publisher":{"@id":"https://rawthoughts.in/#organization","@type":"Organization","identifier":"organization:rtepl","name":"RawThoughts Enterprises Private Limited","sameAs":[{"@id":"https://github.com/getHarshOnline"}],"url":"https://rawthoughts.in/"},"text":"Reckon\nWhat should an agent keep when it has room for only a few records? Reckon measures what changes outcomes for what it costs, with the uncertainty shown. The laboratory runs locally for Causality’s research. The problem in front is serving RawThoughts’ agent tools with the same comparison, so a proposed improvement can be compared before anyone decides to use it. The cases for that comparison come from Pale\u0027s genealogy, its history of what each agent was given, what it did and what followed; the laboratory here runs without it.\nUse the local laboratory to compare two replay budgets or inspect a saved run.\nKeep useful experience. Understand what it changed.\nAn early clue can matter several steps later. Run the same task with different memory rules or limits, then follow the surviving records into the outcome.\nTo find out whether one record helped, compare runs with that instance present and absent. Report the cost of finding out alongside the outcome difference. The comparison tests one change under stated conditions; a causal claim also needs the assumptions that support that interpretation.\nFollow what a memory changes\nGive the same classifier room for 2 examples or 16. Compare its accuracy on earlier tasks, then investigate which memory choices made a difference.\nFollow the record\nFollow a record from when it was written to when it was read, scored or removed. Use the saved result to see how the task performed.\nChange the memory\nChange the space available, the retention rule or the presence of one record. Keep the other conditions fixed so the comparison answers the question you chose.\nCompare the useful result\nCompare accuracy or reward for each pair. When you test a policy or a record, report the uncertainty and what it cost to measure the difference, as well as the task\u0027s memory use.\nQuestions about Reckon\nHow do Reckon’s wider roles relate to the laboratory?\nA correction can become a case for testing a better method. Reckon connects the case, comparison and owner\u0027s decision while keeping ordinary evaluation useful on its own. Cases, evaluations and decisions follows that wider use.\nWhat does the laboratory show?\nIt is for finding which retained records mattered and what keeping them cost: the saved result gives accuracy or reward, and the log shows which memory operations wrote, read or dropped records. The laboratory guide explains how to follow those records and test a particular contribution.\nIs every contribution score causal?\nA causal claim needs a test that changes the record as intended, states the assumptions and keeps the other conditions fixed. Use a score to help choose what to keep, and use an outcome comparison to test what a record did. The cache example works through that reasoning.\nDoes Reckon own HENA’s or Scope’s memory?\nHENA keeps its own swarm store and decides what to keep; Scope keeps only context derived from what Pale and Weave hold. Reckon runs a separate lab. Its wider services concern experiment inputs, results and decisions.\nHow do I run the laboratory?\nThe lab runs on your own machine. Start with the laboratory guide, then compare two replay budgets.\n","url":"https://causality.in/reckon/","usageInfo":{"@id":"https://causality.in/terms/"}}</script>
+  
+
+  
+
+<style>
+
+
+
+
+
+
+
+
+@font-face { font-family: 'Instrument Sans'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('https://causality.in/assets/instrument-sans-latin.woff2') format('woff2'); }
+
+
+
+@font-face { font-family: 'Instrument Sans'; font-style: italic; font-weight: 400 700; font-display: swap; src: url('https://causality.in/assets/instrument-sans-italic-latin.woff2') format('woff2'); }
+
+
+
+@font-face { font-family: 'Martian Mono'; font-style: normal; font-weight: 100 800; font-stretch: 75% 112.5%; font-display: swap; src: url('https://causality.in/assets/martian-mono-latin.woff2') format('woff2'); }
+
+
+
+@font-face { font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 100 700; font-stretch: 75% 100%; font-display: swap; src: url('https://causality.in/assets/ibm-plex-sans-latin.woff2') format('woff2'); }
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+  
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  
+  
+
+
+<span id="crossing-description" hidden>Opens another publication</span>
+<span id="external-description" hidden>Leaves this site</span>
+
+
+  
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+    
+    <header class="frame__header">
+    <a class="frame__brand" href="https:&#x2F;&#x2F;causality.in&#x2F;" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+>Causality</a>
+    
+
+
+  
+  
+  <a class="control control--secondary shell__trigger shell__search-page shell__search-trigger" data-search-label="Search" aria-label="Search, ⌘ K" aria-keyshortcuts="Meta+K Control+K" href="https:&#x2F;&#x2F;causality.in&#x2F;search&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-search"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+><span class="shell__icon shell__icon--search" aria-hidden="true"></span><kbd data-search-shortcut aria-hidden="true">⌘ K</kbd></a>
+  
+
+
+
+    
+    
+    <button class="frame__menu" type="button" aria-controls="publication-navigation publication-tools" aria-expanded="true" hidden>Menu</button>
+    
+    <div class="frame__directory">
+    
+    <nav class="frame__nav" id="publication-navigation" aria-label="Primary navigation">
+      <ul>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-home"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Home</a><p class="frame__destination-description">A mathematical programme and learning architectures for systems that can change their descriptions and organisation.</p></li>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;research&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-projects"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+ aria-current="location">Research</a><p class="frame__destination-description">The calculus, local units, collective architectures and measurement tools behind Causality’s research programme.</p></li>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;collections&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-collections"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Thoughts</a><p class="frame__destination-description">Three connected inquiries: what a summary preserves, what units learn through how they are organised and what an evaluation shows about a change. Each begins with a question and develops it through small examples; standalone pieces are on the Blog.</p></li>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;blog&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="collection:causality-essays"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Blog</a><p class="frame__destination-description">Worked questions about distinctions, causal evidence and learning under limits.</p></li>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;about&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-about"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>About</a><p class="frame__destination-description">How Causality connects changing descriptions, learning within a unit and learning among units, with experiments that test what helps.</p></li>
+      
+      </ul>
+    </nav>
+    
+
+    
+
+
+
+
+
+
+
+<div class="shell" data-shell>
+  <div class="shell__tools" id="publication-tools">
+  <button type="button" class="control control--secondary shell__trigger shell__settings-trigger" data-command-trigger="settings" aria-haspopup="dialog" aria-label="Settings" hidden><span class="shell__icon shell__icon--settings" aria-hidden="true"></span></button>
+  </div>
+  <dialog class="shell__dialog" aria-labelledby="shell-title">
+    <div class="shell__heading">
+      <h2 id="shell-title" class="shell__title" tabindex="-1"></h2>
+      <button type="button" class="control control--secondary shell__close">Close</button>
+    </div>
+    
+    
+    
+    
+    
+    
+    <section class="shell__tenant" data-tenant="settings" data-tenant-title="Display settings" hidden>
+      <fieldset class="shell__setting" data-setting="color-mode">
+        <legend>Colour mode</legend>
+        <div class="shell__setting-options">
+          <label><input type="radio" name="color-mode" value="system">System</label>
+          <label><input type="radio" name="color-mode" value="light">Light</label>
+          <label><input type="radio" name="color-mode" value="dark">Dark</label>
+        </div>
+      </fieldset>
+      <fieldset class="shell__setting" data-setting="motion-preference">
+        <legend>Motion</legend>
+        <div class="shell__setting-options">
+          <label><input type="radio" name="motion-preference" value="system">System</label>
+          <label><input type="radio" name="motion-preference" value="reduce">Reduced</label>
+          <label><input type="radio" name="motion-preference" value="allow">Full</label>
+        </div>
+      </fieldset>
+      
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+      
+      
+      <p class="shell__status" role="status" data-settings-status data-storage-unavailable="Your preference applies to this page, but could not be saved for future visits."></p>
+    </section>
+  </dialog>
+</div>
+
+    </div>
+    
+  </header>
+  
+  <script>try{var h=document.currentScript.previousElementSibling,u=h&&h.querySelector(".frame__menu"),n=h&&h.querySelector(".frame__nav");if(u&&n){u.hidden=false;var c=getComputedStyle(u).display!=="none";h.setAttribute("data-navigation-mode",c?"compact":"direct");u.setAttribute("aria-expanded",String(!c));n.setAttribute("data-collapsed",String(c))}if(h){var s=h.getBoundingClientRect().height,d=document.documentElement;d.style.setProperty("--frame-header-height",s+"px");d.style.setProperty("--frame-chrome",(["fixed","sticky"].includes(getComputedStyle(h).position)?s:0)+"px")}}catch(x){}</script>
+
+  <main id="main" tabindex="-1" data-structure="collection">
+    
+    
+    <span id="reading-overflow-label" hidden>Scroll sideways to see the rest. Use the arrow keys when focused.</span>
+    
+
+    
+    
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    <div class="publication-layout">
+      
+      
+      
+      
+      
+      <div class="publication-body publication-body--product"><section class="project-overview"><header class="page-opening"><h1 id="reckon">Reckon</h1>
+<p>What should an agent keep when it has room for only a few records? Reckon measures what changes outcomes for what it costs, with the uncertainty shown. The laboratory runs locally for Causality’s research. The problem in front is serving RawThoughts’ agent tools with the same comparison, so a proposed improvement can be compared before anyone decides to use it. The cases for that comparison come from <a href="https://rawthoughts.in/pale/" data-gazette-link="content:causality-project-reckon#link-1" data-gazette-destination-kind="cross-site" data-gazette-destination-content="content:pale-project" data-gazette-destination-site="site:rawthoughts" data-gazette-destination-theme="theme:carrier">Pale</a>'s genealogy, its history of what each agent was given, what it did and what followed; the laboratory here runs without it.</p>
+<p>Use the local laboratory to <a href="https://causality.in/reckon/compare-replay-budgets/" data-gazette-link="content:causality-project-reckon#link-2" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:reckon-compare-replay-budgets" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">compare two replay budgets</a> or <a href="https://causality.in/reckon/inspect-an-exported-run/" data-gazette-link="content:causality-project-reckon#link-3" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:reckon-inspect-an-exported-run" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">inspect a saved run</a>.</p>
+</header>
+<div class="project-summary prose-flow"><h2 id="keep-useful-experience-understand-what-it-changed">Keep useful experience. Understand what it changed.</h2>
+<p>An early clue can matter several steps later. Run the same task with different memory rules or limits, then follow the surviving records into the outcome.</p>
+<p>To find out whether one record helped, compare runs with that instance present and absent. Report the cost of finding out alongside the outcome difference. The comparison tests one change under stated conditions; a causal claim also needs the assumptions that support that interpretation.</p>
+</div>
+
+
+
+
+
+<nav class="project-links project-resources" aria-label="Explore this product: Reckon">
+  <ul>
+  
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      
+        
+        <a class="control control--primary" href="https:&#x2F;&#x2F;docs.causality.in&#x2F;reckon&#x2F;overview" aria-label="Docs: Reckon · Developer documentation" title="Developer documentation" 
+
+
+  
+  
+  
+  
+  
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>Docs</a>
+      
+    </li>
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      
+        
+        <a class="control control--primary" href="https:&#x2F;&#x2F;causality.in&#x2F;reckon&#x2F;understand-the-memory-laboratory&#x2F;" aria-label="Learn: Reckon · Use-case guide and practical applications" title="Use-case guide and practical applications" 
+
+
+  
+  
+  
+  
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:reckon-docs"
+ data-gazette-destination-relationships="collection-member"
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Learn</a>
+      
+    </li>
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      
+        
+        <a class="control control--primary" href="https:&#x2F;&#x2F;github.com&#x2F;getHarshOnline&#x2F;reckon" aria-label="GitHub: Reckon · Explore on GitHub" title="Explore on GitHub" 
+
+
+  
+  
+  
+  
+  
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>GitHub</a>
+      
+    </li>
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      
+        
+        <a class="control control--primary" href="https:&#x2F;&#x2F;causality.in&#x2F;reckon&#x2F;mentions&#x2F;" aria-label="Mentions: Reckon · Writing that discusses or references this product" title="Writing that discusses or references this product" 
+
+
+  
+  
+  
+  
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:reckon-mentions"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Mentions</a>
+      
+    </li>
+    
+  
+    
+    
+    
+    
+    
+    
+    
+  
+  </ul>
+</nav>
+
+</section>
+<section class="process-section"><div class="process-introduction prose-flow"><h2 id="follow-what-a-memory-changes">Follow what a memory changes</h2>
+<p>Give the same classifier room for 2 examples or 16. <a href="https://causality.in/reckon/compare-replay-budgets/" data-gazette-link="content:causality-project-reckon#link-4" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:reckon-compare-replay-budgets" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">Compare its accuracy</a> on earlier tasks, then investigate which memory choices made a difference.</p>
+</div>
+<div data-gazette-component="process-path" data-gazette-component-address="content:causality-project-reckon#component-7" data-gazette-state="pending" data-gazette-props="{&quot;label&quot;:&quot;From a memory decision to an examined contribution&quot;}"><div data-gazette-fallback><section class="process-path" aria-label="From a memory decision to an examined contribution">
+  <div class="process-path__layout">
+  <ol role="list" class="process-path__steps"><li class="process-step"><div class="process-path__copy"><h3 id="follow-the-record">Follow the record</h3>
+<p>Follow a record from when it was written to when it was read, scored or removed. Use the saved result to see how the task performed.</p>
+</div></li>
+<li class="process-step"><div class="process-path__copy"><h3 id="change-the-memory">Change the memory</h3>
+<p>Change the space available, the retention rule or the presence of one record. Keep the other conditions fixed so the comparison answers the question you chose.</p>
+</div></li>
+<li class="process-step"><div class="process-path__copy"><h3 id="compare-the-useful-result">Compare the useful result</h3>
+<p>Compare accuracy or reward for each pair. When you test a policy or a record, report the uncertainty and what it cost to measure the difference, as well as the task's memory use.</p>
+</div></li>
+</ol>
+  </div>
+  
+</section>
+</div><div data-gazette-mount></div></div></section>
+
+
+
+
+
+
+
+<section class="container-contents" aria-label="Guides">
+  <header class="quote-deck__header"><h2>Guides</h2></header>
+  
+  
+  
+  
+    
+      
+      
+        <section class="container-contents__group" aria-label="Use the lab">
+          <header class="quote-deck__header"><h3 class="container-contents__group-title" aria-level="3">Use the lab</h3></header>
+        
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+        
+        
+        
+        
+<section data-autoplay="false" data-wheel="false" data-deck-field="viewport" class="quote-deck quote-deck--folder" data-content-deck aria-label="Use the lab">
+  
+  <div class="quote-deck__stage"><article class="quote-deck__card" data-deck-label="Understand the memory laboratory">
+
+
+
+
+
+
+<a class="folder-card folder-card--text" href="https:&#x2F;&#x2F;causality.in&#x2F;reckon&#x2F;understand-the-memory-laboratory&#x2F;" aria-labelledby="folder-title-container-5-1" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:reckon-docs"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+ aria-describedby="folder-description-container-5-1"
+>
+  <span class="folder-card__inner">
+    
+    <span class="folder-card__copy">
+      <span class="folder-card__title" id="folder-title-container-5-1">Understand the memory laboratory</span>
+      <span class="folder-card__description" id="folder-description-container-5-1">Choose a task, compare memory policies and read the saved results.</span>
+    </span>
+  </span>
+</a>
+</article><article class="quote-deck__card" data-deck-label="Compare two replay budgets">
+
+
+
+
+
+
+<a class="folder-card folder-card--text" href="https:&#x2F;&#x2F;causality.in&#x2F;reckon&#x2F;compare-replay-budgets&#x2F;" aria-labelledby="folder-title-container-5-2" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:reckon-compare-replay-budgets"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+ aria-describedby="folder-description-container-5-2"
+>
+  <span class="folder-card__inner">
+    
+    <span class="folder-card__copy">
+      <span class="folder-card__title" id="folder-title-container-5-2">Compare two replay budgets</span>
+      <span class="folder-card__description" id="folder-description-container-5-2">Follow a local continual-classification comparison from matched inputs through saved accuracy matrices and event logs to their interpretation.</span>
+    </span>
+  </span>
+</a>
+</article><article class="quote-deck__card" data-deck-label="Inspect an exported run">
+
+
+
+
+
+
+<a class="folder-card folder-card--text" href="https:&#x2F;&#x2F;causality.in&#x2F;reckon&#x2F;inspect-an-exported-run&#x2F;" aria-labelledby="folder-title-container-5-3" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:reckon-inspect-an-exported-run"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+ aria-describedby="folder-description-container-5-3"
+>
+  <span class="folder-card__inner">
+    
+    <span class="folder-card__copy">
+      <span class="folder-card__title" id="folder-title-container-5-3">Inspect an exported run</span>
+      <span class="folder-card__description" id="folder-description-container-5-3">Follow a record through writes, reads and removals in a saved event log.</span>
+    </span>
+  </span>
+</a>
+</article></div>
+  
+  
+  
+<nav class="carousel-controls quote-deck__controls" aria-label="Use the lab" hidden>
+  <div class="carousel-controls__arrows quote-deck__arrows">
+    <button class="control control--navigation" type="button" data-quote-previous aria-label="Previous item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H6m5-6-6 6 6 6" /></svg></button>
+    <button class="control control--navigation" type="button" data-quote-next aria-label="Next item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" /></svg></button>
+  </div>
+  <button class="control control--navigation control--compact carousel-controls__playback quote-deck__playback" type="button" data-quote-playback data-pause-label="Pause carousel" data-resume-label="Play carousel" hidden>Pause carousel</button>
+  <output class="carousel-controls__position quote-deck__position" aria-live="polite" aria-atomic="true"></output>
+</nav>
+
+</section>
+
+        
+      
+      
+        </section>
+        
+        
+      
+    
+  
+    
+      
+      
+        <section class="container-contents__group" aria-label="Beyond the laboratory">
+          <header class="quote-deck__header"><h3 class="container-contents__group-title" aria-level="3">Beyond the laboratory</h3></header>
+        
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+        
+        
+        
+        
+<section data-autoplay="false" data-wheel="false" data-deck-field="viewport" class="quote-deck quote-deck--folder" data-content-deck aria-label="Beyond the laboratory">
+  
+  <div class="quote-deck__stage"><article class="quote-deck__card" data-deck-label="Cases, evaluations and decisions">
+
+
+
+
+
+
+<a class="folder-card folder-card--text" href="https:&#x2F;&#x2F;causality.in&#x2F;reckon&#x2F;cases-evaluations-and-decisions&#x2F;" aria-labelledby="folder-title-container-8-1" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:reckon-cases-evaluations-and-decisions"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+ aria-describedby="folder-description-container-8-1"
+>
+  <span class="folder-card__inner">
+    
+    <span class="folder-card__copy">
+      <span class="folder-card__title" id="folder-title-container-8-1">Cases, evaluations and decisions</span>
+      <span class="folder-card__description" id="folder-description-container-8-1">Follow two teams comparing a memory rule, from a shared test case to deciding whether to use it.</span>
+    </span>
+  </span>
+</a>
+</article></div>
+  
+  
+  
+<nav class="carousel-controls quote-deck__controls" aria-label="Beyond the laboratory" hidden>
+  <div class="carousel-controls__arrows quote-deck__arrows">
+    <button class="control control--navigation" type="button" data-quote-previous aria-label="Previous item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H6m5-6-6 6 6 6" /></svg></button>
+    <button class="control control--navigation" type="button" data-quote-next aria-label="Next item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" /></svg></button>
+  </div>
+  <button class="control control--navigation control--compact carousel-controls__playback quote-deck__playback" type="button" data-quote-playback data-pause-label="Pause carousel" data-resume-label="Play carousel" hidden>Pause carousel</button>
+  <output class="carousel-controls__position quote-deck__position" aria-live="polite" aria-atomic="true"></output>
+</nav>
+
+</section>
+
+        
+      
+      
+        </section>
+        
+        
+      
+    
+  
+  
+</section>
+
+
+
+<section class="faq" itemscope itemtype="https://schema.org/FAQPage"><h2 id="questions-about-reckon">Questions about Reckon</h2>
+<details class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<summary itemprop="name">How do Reckon’s wider roles relate to the laboratory?</summary>
+<div class="faq-item__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div class="prose-flow" itemprop="text"><p>A correction can become a case for testing a better method. Reckon connects the case, comparison and owner's decision while keeping ordinary evaluation useful on its own. <a href="https://causality.in/reckon/cases-evaluations-and-decisions/" data-gazette-link="content:causality-project-reckon#link-5" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:reckon-cases-evaluations-and-decisions" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">Cases, evaluations and decisions</a> follows that wider use.</p>
+</div></div>
+</details>
+<details class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<summary itemprop="name">What does the laboratory show?</summary>
+<div class="faq-item__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div class="prose-flow" itemprop="text"><p>It is for finding which retained records mattered and what keeping them cost: the saved result gives accuracy or reward, and the log shows which memory operations wrote, read or dropped records. The <a href="https://causality.in/reckon/understand-the-memory-laboratory/" data-gazette-link="content:causality-project-reckon#link-6" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:reckon-docs" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">laboratory guide</a> explains how to follow those records and test a particular contribution.</p>
+</div></div>
+</details>
+<details class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<summary itemprop="name">Is every contribution score causal?</summary>
+<div class="faq-item__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div class="prose-flow" itemprop="text"><p>A causal claim needs a test that changes the record as intended, states the assumptions and keeps the other conditions fixed. Use a score to help choose what to keep, and use an outcome comparison to test what a record did. <a href="https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/causal-inference-primer/" data-gazette-link="content:causality-project-reckon#link-7" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:causality-causal-inference-primer" data-gazette-destination-site="site:causality" data-gazette-destination-theme="theme:lattice">The cache example</a> works through that reasoning.</p>
+</div></div>
+</details>
+<details class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<summary itemprop="name">Does Reckon own HENA’s or Scope’s memory?</summary>
+<div class="faq-item__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div class="prose-flow" itemprop="text"><p><a href="https://causality.in/hena/" data-gazette-link="content:causality-project-reckon#link-8" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:causality-project-hena" data-gazette-destination-site="site:causality" data-gazette-destination-theme="theme:lattice">HENA</a> keeps its own swarm store and decides what to keep; <a href="https://rawthoughts.in/scope/" data-gazette-link="content:causality-project-reckon#link-9" data-gazette-destination-kind="cross-site" data-gazette-destination-content="content:scope-introduction" data-gazette-destination-site="site:rawthoughts" data-gazette-destination-theme="theme:carrier">Scope</a> keeps only context derived from what Pale and Weave hold. Reckon runs a separate lab. Its wider services concern experiment inputs, results and decisions.</p>
+</div></div>
+</details>
+<details class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<summary itemprop="name">How do I run the laboratory?</summary>
+<div class="faq-item__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div class="prose-flow" itemprop="text"><p>The lab runs on your own machine. Start with <a href="https://causality.in/reckon/understand-the-memory-laboratory/" data-gazette-link="content:causality-project-reckon#link-10" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:reckon-docs" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">the laboratory guide</a>, then <a href="https://causality.in/reckon/compare-replay-budgets/" data-gazette-link="content:causality-project-reckon#link-11" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:reckon-compare-replay-budgets" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">compare two replay budgets</a>.</p>
+</div></div>
+</details>
+</section>
+</div>
+
+      
+    </div>
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+<div class="services-closing">
+<section class="focus-reveal focus-reveal--centred" data-focus-reveal data-focus-mode="once">
+<div class="services-invitation focus-reveal__content">
+  <h2>Engage our services</h2>
+  <a class="control control--primary" data-enquiry-button="services-invitation" href="https:&#x2F;&#x2F;rawthoughts.in&#x2F;services&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="cross-site"
+ data-relationship="crossing"
+
+ data-gazette-destination-site="site:rawthoughts"
+ data-gazette-destination-content="content:rawthoughts-services"
+
+
+ data-gazette-destination-theme="theme:carrier"
+ 
+
+
+
+
+ aria-describedby=" crossing-description"
+>Learn More</a>
+</div>
+</section>
+</div>
+
+
+
+    
+  </main>
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="frame__footer" aria-label="Site footer">
+    <div class="frame__footer-main">
+      <div class="frame__footer-profile">
+              
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        <a class="frame__brand frame__footer-brand" href="https:&#x2F;&#x2F;causality.in&#x2F;" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+>Causality</a>
+        <p class="frame__footer-description">A mathematical programme and learning architectures for systems that can change their descriptions and organisation.</p>
+      
+      </div>
+      
+      
+      <div class="frame__footer-colophon">
+        <p class="frame__footer-copyright">© 2026 RawThoughts Enterprises Private Limited</p>
+        
+        <p class="frame__footer-credit">Made with <span role="img" aria-label="love">❤️</span> using <a href="https:&#x2F;&#x2F;rawthoughts.in&#x2F;gazette&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="cross-site"
+ data-relationship="crossing"
+
+ data-gazette-destination-site="site:rawthoughts"
+ data-gazette-destination-content="content:gazette-introduction"
+
+
+ data-gazette-destination-theme="theme:carrier"
+ 
+
+
+
+
+ aria-describedby=" crossing-description"
+>Gazette</a> · <a class="frame__footer-theme" href="https:&#x2F;&#x2F;github.com&#x2F;getHarshOnline&#x2F;gazette-theme-lattice" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>Lattice theme</a></p>
+        
+      </div>
+      
+      <div class="frame__footer-connections">
+        
+        <ul class="frame__footer-social">
+        
+        
+          
+        
+        
+          <li><a href="mailto:hi@causality.in" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>Email</a></li>
+        
+        
+          
+          
+          
+          <li><a href="https:&#x2F;&#x2F;github.com&#x2F;getHarshOnline" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>GitHub</a></li>
+          
+          
+          
+          
+          <li><a href="https:&#x2F;&#x2F;x.com&#x2F;getHarshOnline" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>X</a></li>
+          
+          
+          
+          
+          <li><a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@ProjectCausality" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>YouTube</a></li>
+          
+          
+        
+        </ul>
+        
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <ul class="frame__footer-supporting">
+    
+      
+    
+      <li><a data-enquiry-button="services-footer" href="https:&#x2F;&#x2F;rawthoughts.in&#x2F;services&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="cross-site"
+ data-relationship="crossing"
+
+ data-gazette-destination-site="site:rawthoughts"
+ data-gazette-destination-content="content:rawthoughts-services"
+
+
+ data-gazette-destination-theme="theme:carrier"
+ 
+
+
+
+
+ aria-describedby=" crossing-description"
+>Services</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;privacy&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-privacy"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Privacy</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;terms&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-terms"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Terms</a></li>
+    
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;sitemap.xml" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="application&#x2F;xml">Sitemap</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;llms.txt" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="text&#x2F;plain">llms.txt</a></li>
+    
+    
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;feed.xml" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="application&#x2F;atom+xml" rel="alternate">Atom</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;feed.json" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="application&#x2F;feed+json" rel="alternate">JSON Feed</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;rss.xml" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="application&#x2F;rss+xml" rel="alternate">RSS</a></li>
+    
+    
+    </ul>
+    
+      </div>
+      
+    </div>
+  </footer>
+
+</body>
+</html>

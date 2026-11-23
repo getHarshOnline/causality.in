@@ -1,0 +1,1443 @@
+
+<!doctype html>
+
+<html lang="en" data-page-mode="product" data-footer-treatment="colophon">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta name="color-scheme" content="light dark">
+
+  
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#edf0ee">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141b20">
+  
+  <title>MONAD</title>
+  <meta property="og:title" content="MONAD">
+  <meta property="og:type" content="website">
+  
+  <meta name="description" content="A calculus for preserving, compressing and changing what a description can express.">
+  <meta property="og:description" content="A calculus for preserving, compressing and changing what a description can express.">
+  
+
+  <script>try{var s=window.localStorage,e=document.documentElement,m=s.getItem("color-mode"),r=s.getItem("motion-preference");if(m==="light"||m==="dark"||m==="system")e.setAttribute("data-mode",m);if(r==="reduce"||r==="allow")e.setAttribute("data-motion",r)}catch(x){}</script>
+
+  
+  <link rel="canonical" href="https:&#x2F;&#x2F;causality.in&#x2F;monad&#x2F;">
+  <meta property="og:url" content="https:&#x2F;&#x2F;causality.in&#x2F;monad&#x2F;">
+  
+  
+  <link rel="alternate" type="text&#x2F;markdown" href="https:&#x2F;&#x2F;causality.in&#x2F;monad&#x2F;index.md">
+  
+
+  
+    
+  <link rel="alternate" type="application&#x2F;atom+xml" title="Some questions need another description." href="https:&#x2F;&#x2F;causality.in&#x2F;feed.xml">
+    
+  <link rel="alternate" type="application&#x2F;feed+json" title="Some questions need another description." href="https:&#x2F;&#x2F;causality.in&#x2F;feed.json">
+    
+  <link rel="alternate" type="application&#x2F;rss+xml" title="Some questions need another description." href="https:&#x2F;&#x2F;causality.in&#x2F;rss.xml">
+    
+  
+
+  
+    
+  <link rel="icon" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;site-icon-placeholder.svg">
+    
+  
+  
+
+
+
+
+
+
+    
+    
+      
+    
+      
+    
+      
+  <meta name="tdm-reservation" content="1">
+  <meta name="tdm-policy" content="https:&#x2F;&#x2F;causality.in&#x2F;terms&#x2F;">
+      
+    
+      
+  <link rel="manifest" href="https:&#x2F;&#x2F;causality.in&#x2F;manifest.webmanifest">
+      
+    
+  
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  <link rel="preload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+  
+    
+  
+    
+  <link rel="preload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;martian-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+  
+    
+  <link rel="preload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;ibm-plex-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;physics.css">
+    
+  
+    
+  
+    
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;lattice-tokens.css">
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;lattice.css">
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+
+  
+  <script type="importmap">{"imports":{"@base/analytics":"https://causality.in/assets/analytics-sdk.js","@base/field-sequence":"https://causality.in/assets/field-sequence.js","@base/search":"https://causality.in/assets/search.js","@base/search-sdk":"https://causality.in/assets/search-sdk.js","@base/settings":"https://causality.in/assets/settings.js","@base/video-reveal":"https://causality.in/assets/video-reveal.js","@base/webmcp":"https://causality.in/assets/webmcp-sdk.js","@motion-preference":"https://causality.in/assets/motion-preference.js"}}</script>
+    
+    
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;analytics-consent.js" fetchpriority="low">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;analytics-sdk.js" fetchpriority="low">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;enquiry-context.js" fetchpriority="low">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;process-path.js">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;settings.js">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;shell.js">
+    
+      
+      
+  <link rel="modulepreload" href="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;webmcp.js" fetchpriority="low">
+    
+  
+
+  
+  <script type="application/json" id="search-corpus">{"fields":["title","description","keywords","route","body","notes"],"output":"search.json","page":{"content":{"attributions":[{"principal":"person:harsh","role":"author"}],"description":"Find pages, articles and collections from Causality.","id":"content:causality-search","language":"en","lifecycle":"published","listing":true,"presentation":{"theme":"theme:lattice"},"resolved_route":{"aliases":[],"canonical_url":"https://causality.in/search/","mirrors":[],"output":"search/index.html","public_url":"https://causality.in/search/","url":"https://causality.in/search/"},"route":{"aliases":[],"mirrors":[],"path":"/search/"},"site":"site:causality","slug":"search","structure":{"family":{"kind":"index"},"kind":"page"},"title":"Search"},"route":{"aliases":[],"canonical_url":"https://causality.in/search/","mirrors":[],"output":"search/index.html","public_url":"https://causality.in/search/","url":"https://causality.in/search/"}},"profile":"english","route":"/search.json","url":"https://causality.in/search.json"}</script>
+  
+
+  
+  
+    
+      
+      
+    
+    
+    
+  
+  
+
+<script type="application/json" id="enquiry-context">{"source":{"site":"site:causality","content":"content:causality-project-monad","url":"https://causality.in/monad/"},"destination":{"site":"site:rawthoughts","content":"content:rawthoughts-services","url":"https://rawthoughts.in/services/"},"copy":{"subject":"Enquiry from {page}","heading":"About this enquiry","page":"Page","button":"Link","actions":{"services-footer":"Services link in the footer","services-invitation":"Services invitation","services-link":"Link to Services","enquiry-email":"Services enquiry" } } }</script>
+
+
+
+  
+
+
+<script type="application/json" id="webmcp-binding">{"binding":{"contract":"publication-webmcp-v1","tools":["current_page","search"]},"currentPage":{"body_text":"MONAD\nAn inventory says a part is in stock. Can it tell you whether the part fits the machine? MONAD studies which answers survive a change of description and what you need to recover a missing answer. It asks what would let a fixed frame become something a system can change without losing account of its meaning.\nWhen a better answer needs a different language\nWork through the stock-and-fit example to see which questions an inventory can answer. A Lean library and paper develop the mathematics. A small Rust kernel supplies types and numerical operations for research code.\nFollow what a description can answer\nStart with the answer you need. Try to reconstruct it from the shorter description, then work out which information a new observation could supply.\nState the questions\nDecide which questions you need to answer now and after any changes you plan to make. An inventory for ordering parts and one for repairing a machine can need different information.\nExamine the transformation\nCompare cases that the summary treats alike. In the example below, the stock summary gives the same answer for both parts even though only one fits.\nRepair or enrich the account\nRecover the missing distinction from an available source, or enrich a description whose objects, questions or rules cannot express what is needed. The longer-term calculus also asks how the rules of change can themselves become objects of change.\nQuestions a description must answer\nThe stock summary cannot tell the two parts apart, but a compatibility record might supply the missing answer. Finding that record repairs an omission. If the description has no way to represent machines or their compatibility with parts, it needs a richer language before it can even ask the question. Descriptions and repair follows that distinction from an available observation to a change in what the description can express.\nQuestions about MONAD\nWhat does MONAD let researchers do?\nState which distinctions a representation must preserve, examine a transformation or compression, and reason about the information and cost needed to repair an inadequate account. The Lean library makes parts of that mathematics exact, and the Rust kernel brings its types and numerical operations into research code.\nIs MONAD only about AI?\nMONAD is a pure mathematical programme, and AI is one source of its examples. Adaptive models, changing scientific descriptions and other systems supply examples and tests; they do not define its axioms.\nHow does the stock-and-fit example relate to the larger aim?\nIt shows a summary preserving availability while losing the distinction needed for repair. Moving from that fixed example to descriptions whose objects, questions and rules can change is the broader research task.\nDo I need software to follow MONAD?\nYou can read the worked example without software. Descriptions and repair then follows the same question into the Lean library and the Rust kernel.\n","content":{"attributions":[{"principal":"person:harsh","role":"author"}],"description":"A calculus for preserving, compressing and changing what a description can express.","documentation":true,"id":"content:causality-project-monad","language":"en","lifecycle":"published","presentation":{"theme":"theme:lattice"},"resolved_route":{"aliases":[],"canonical_url":"https://causality.in/monad/","mirrors":[],"output":"monad/index.html","public_url":"https://causality.in/monad/","url":"https://causality.in/monad/"},"route":{"aliases":[],"mirrors":[],"path":"/monad/"},"site":"site:causality","structure":{"kind":"collection","purpose":"documentation"},"title":"MONAD"},"route":{"aliases":[],"canonical_url":"https://causality.in/monad/","mirrors":[],"output":"monad/index.html","public_url":"https://causality.in/monad/","url":"https://causality.in/monad/"}},"search":{"fields":["title","description","keywords","route","body","notes"],"output":"search.json","page":{"content":{"attributions":[{"principal":"person:harsh","role":"author"}],"description":"Find pages, articles and collections from Causality.","id":"content:causality-search","language":"en","lifecycle":"published","listing":true,"presentation":{"theme":"theme:lattice"},"resolved_route":{"aliases":[],"canonical_url":"https://causality.in/search/","mirrors":[],"output":"search/index.html","public_url":"https://causality.in/search/","url":"https://causality.in/search/"},"route":{"aliases":[],"mirrors":[],"path":"/search/"},"site":"site:causality","slug":"search","structure":{"family":{"kind":"index"},"kind":"page"},"title":"Search"},"route":{"aliases":[],"canonical_url":"https://causality.in/search/","mirrors":[],"output":"search/index.html","public_url":"https://causality.in/search/","url":"https://causality.in/search/"}},"profile":"english","route":"/search.json","url":"https://causality.in/search.json"}}</script>
+
+
+
+  
+  
+  
+    
+  
+  
+    
+    
+  
+  
+  
+    
+  
+    
+  <script type="module" src="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;shell.js"></script>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  <script type="module" src="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;enquiry-context.js" async fetchpriority="low"></script>
+    
+  
+    
+  <script type="module" src="https:&#x2F;&#x2F;causality.in&#x2F;assets&#x2F;webmcp.js" async fetchpriority="low"></script>
+    
+  
+  
+  
+  <script type="module" src="https:&#x2F;&#x2F;causality.in&#x2F;gazette&#x2F;islands&#x2F;5acbe444412eae842126011775071dcdea92553b7be2e24f410ffccf01366b2a.js"></script>
+  
+
+  
+  <script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"selector_matches":"[download], [rel~=nofollow], [data-no-prefetch], [href*='#']"}}]},"eagerness":"moderate"}]}</script>
+
+  
+  <script type="application/ld+json">{"@context":{"@version":1.1,"@vocab":"https://schema.org/","url":{"@id":"https://schema.org/url","@type":"@id"}},"@id":"https://causality.in/monad/","@type":"CollectionPage","about":[{"@id":"https://causality.in/monad/#entity","@type":"CreativeWork","identifier":"project:monad","name":"MONAD","subjectOf":[{"@id":"https://causality.in/monad/","@type":"CollectionPage","identifier":"content:causality-project-monad","name":"MONAD","url":"https://causality.in/monad/"},{"@id":"https://causality.in/monad/descriptions-and-repair/#article","@type":"Article","identifier":"content:monad-docs","name":"Descriptions and repair","url":"https://causality.in/monad/descriptions-and-repair/"},{"@id":"https://causality.in/monad/mentions/","@type":"CollectionPage","identifier":"content:monad-mentions","name":"MONAD mentions","url":"https://causality.in/monad/mentions/"},{"@id":"https://docs.causality.in/monad/overview","@type":"WebPage","name":"MONAD","url":"https://docs.causality.in/monad/overview"}]}],"author":[{"@id":"https://getharsh.in/#person","@type":"Person","identifier":"person:harsh","name":"Harsh Joshi","sameAs":[{"@id":"https://github.com/getHarsh"},{"@id":"https://www.linkedin.com/in/getharsh/"}],"url":"https://getharsh.in/"}],"creativeWorkStatus":"published","description":"A calculus for preserving, compressing and changing what a description can express.","hasPart":[{"@id":"https://causality.in/monad/descriptions-and-repair/#article","@type":"Article","identifier":"content:monad-docs","name":"Descriptions and repair","url":"https://causality.in/monad/descriptions-and-repair/"},{"@id":"https://causality.in/monad/what-a-summary-preserves/#article","@type":"TechArticle","identifier":"content:monad-what-a-summary-preserves","name":"What a summary preserves","url":"https://causality.in/monad/what-a-summary-preserves/"},{"@id":"_:faq_38fe1b0c9c12c89ff7d92ce5c35cebb95bfa0c77cf742797b304f5eb5690cee9","@type":"FAQPage","isPartOf":{"@id":"https://causality.in/monad/","identifier":"content:causality-project-monad"},"mainEntity":[{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"\u003cp\u003eState which distinctions a representation must preserve, examine a transformation or compression, and reason about the information and cost needed to repair an inadequate account. The Lean library makes parts of that mathematics exact, and the Rust kernel brings its types and numerical operations into research code.\u003c/p\u003e\n"},"name":"What does MONAD let researchers do?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"\u003cp\u003eMONAD is a pure mathematical programme, and AI is one source of its examples. Adaptive models, changing scientific descriptions and other systems supply examples and tests; they do not define its axioms.\u003c/p\u003e\n"},"name":"Is MONAD only about AI?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"\u003cp\u003eIt shows a summary preserving availability while losing the distinction needed for repair. Moving from that fixed example to descriptions whose objects, questions and rules can change is the broader research task.\u003c/p\u003e\n"},"name":"How does the stock-and-fit example relate to the larger aim?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"\u003cp\u003eYou can read the worked example without software. \u003ca href=\"https://causality.in/monad/descriptions-and-repair/\" data-gazette-link=\"content:causality-project-monad#link-3\" data-gazette-destination-kind=\"internal-native\" data-gazette-destination-content=\"content:monad-docs\" data-gazette-destination-site=\"site:causality\" data-gazette-destination-relationships=\"collection-member\" data-gazette-destination-theme=\"theme:lattice\"\u003eDescriptions and repair\u003c/a\u003e then follows the same question into the Lean library and the Rust kernel.\u003c/p\u003e\n"},"name":"Do I need software to follow MONAD?"}]}],"identifier":"content:causality-project-monad","inLanguage":"en","name":"MONAD","publisher":{"@id":"https://rawthoughts.in/#organization","@type":"Organization","identifier":"organization:rtepl","name":"RawThoughts Enterprises Private Limited","sameAs":[{"@id":"https://github.com/getHarshOnline"}],"url":"https://rawthoughts.in/"},"text":"MONAD\nAn inventory says a part is in stock. Can it tell you whether the part fits the machine? MONAD studies which answers survive a change of description and what you need to recover a missing answer. It asks what would let a fixed frame become something a system can change without losing account of its meaning.\nWhen a better answer needs a different language\nWork through the stock-and-fit example to see which questions an inventory can answer. A Lean library and paper develop the mathematics. A small Rust kernel supplies types and numerical operations for research code.\nFollow what a description can answer\nStart with the answer you need. Try to reconstruct it from the shorter description, then work out which information a new observation could supply.\nState the questions\nDecide which questions you need to answer now and after any changes you plan to make. An inventory for ordering parts and one for repairing a machine can need different information.\nExamine the transformation\nCompare cases that the summary treats alike. In the example below, the stock summary gives the same answer for both parts even though only one fits.\nRepair or enrich the account\nRecover the missing distinction from an available source, or enrich a description whose objects, questions or rules cannot express what is needed. The longer-term calculus also asks how the rules of change can themselves become objects of change.\nQuestions a description must answer\nThe stock summary cannot tell the two parts apart, but a compatibility record might supply the missing answer. Finding that record repairs an omission. If the description has no way to represent machines or their compatibility with parts, it needs a richer language before it can even ask the question. Descriptions and repair follows that distinction from an available observation to a change in what the description can express.\nQuestions about MONAD\nWhat does MONAD let researchers do?\nState which distinctions a representation must preserve, examine a transformation or compression, and reason about the information and cost needed to repair an inadequate account. The Lean library makes parts of that mathematics exact, and the Rust kernel brings its types and numerical operations into research code.\nIs MONAD only about AI?\nMONAD is a pure mathematical programme, and AI is one source of its examples. Adaptive models, changing scientific descriptions and other systems supply examples and tests; they do not define its axioms.\nHow does the stock-and-fit example relate to the larger aim?\nIt shows a summary preserving availability while losing the distinction needed for repair. Moving from that fixed example to descriptions whose objects, questions and rules can change is the broader research task.\nDo I need software to follow MONAD?\nYou can read the worked example without software. Descriptions and repair then follows the same question into the Lean library and the Rust kernel.\n","url":"https://causality.in/monad/","usageInfo":{"@id":"https://causality.in/terms/"}}</script>
+  
+
+  
+
+<style>
+
+
+
+
+
+
+
+
+@font-face { font-family: 'Instrument Sans'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('https://causality.in/assets/instrument-sans-latin.woff2') format('woff2'); }
+
+
+
+@font-face { font-family: 'Instrument Sans'; font-style: italic; font-weight: 400 700; font-display: swap; src: url('https://causality.in/assets/instrument-sans-italic-latin.woff2') format('woff2'); }
+
+
+
+@font-face { font-family: 'Martian Mono'; font-style: normal; font-weight: 100 800; font-stretch: 75% 112.5%; font-display: swap; src: url('https://causality.in/assets/martian-mono-latin.woff2') format('woff2'); }
+
+
+
+@font-face { font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 100 700; font-stretch: 75% 100%; font-display: swap; src: url('https://causality.in/assets/ibm-plex-sans-latin.woff2') format('woff2'); }
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+  
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  
+  
+
+
+<span id="crossing-description" hidden>Opens another publication</span>
+<span id="external-description" hidden>Leaves this site</span>
+
+
+  
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+    
+    <header class="frame__header">
+    <a class="frame__brand" href="https:&#x2F;&#x2F;causality.in&#x2F;" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+>Causality</a>
+    
+
+
+  
+  
+  <a class="control control--secondary shell__trigger shell__search-page shell__search-trigger" data-search-label="Search" aria-label="Search, ⌘ K" aria-keyshortcuts="Meta+K Control+K" href="https:&#x2F;&#x2F;causality.in&#x2F;search&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-search"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+><span class="shell__icon shell__icon--search" aria-hidden="true"></span><kbd data-search-shortcut aria-hidden="true">⌘ K</kbd></a>
+  
+
+
+
+    
+    
+    <button class="frame__menu" type="button" aria-controls="publication-navigation publication-tools" aria-expanded="true" hidden>Menu</button>
+    
+    <div class="frame__directory">
+    
+    <nav class="frame__nav" id="publication-navigation" aria-label="Primary navigation">
+      <ul>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-home"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Home</a><p class="frame__destination-description">A mathematical programme and learning architectures for systems that can change their descriptions and organisation.</p></li>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;research&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-projects"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+ aria-current="location">Research</a><p class="frame__destination-description">The calculus, local units, collective architectures and measurement tools behind Causality’s research programme.</p></li>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;collections&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-collections"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Thoughts</a><p class="frame__destination-description">Three connected inquiries: what a summary preserves, what units learn through how they are organised and what an evaluation shows about a change. Each begins with a question and develops it through small examples; standalone pieces are on the Blog.</p></li>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;blog&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="collection:causality-essays"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Blog</a><p class="frame__destination-description">Worked questions about distinctions, causal evidence and learning under limits.</p></li>
+      
+        
+        
+        <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;about&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-about"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>About</a><p class="frame__destination-description">How Causality connects changing descriptions, learning within a unit and learning among units, with experiments that test what helps.</p></li>
+      
+      </ul>
+    </nav>
+    
+
+    
+
+
+
+
+
+
+
+<div class="shell" data-shell>
+  <div class="shell__tools" id="publication-tools">
+  <button type="button" class="control control--secondary shell__trigger shell__settings-trigger" data-command-trigger="settings" aria-haspopup="dialog" aria-label="Settings" hidden><span class="shell__icon shell__icon--settings" aria-hidden="true"></span></button>
+  </div>
+  <dialog class="shell__dialog" aria-labelledby="shell-title">
+    <div class="shell__heading">
+      <h2 id="shell-title" class="shell__title" tabindex="-1"></h2>
+      <button type="button" class="control control--secondary shell__close">Close</button>
+    </div>
+    
+    
+    
+    
+    
+    
+    <section class="shell__tenant" data-tenant="settings" data-tenant-title="Display settings" hidden>
+      <fieldset class="shell__setting" data-setting="color-mode">
+        <legend>Colour mode</legend>
+        <div class="shell__setting-options">
+          <label><input type="radio" name="color-mode" value="system">System</label>
+          <label><input type="radio" name="color-mode" value="light">Light</label>
+          <label><input type="radio" name="color-mode" value="dark">Dark</label>
+        </div>
+      </fieldset>
+      <fieldset class="shell__setting" data-setting="motion-preference">
+        <legend>Motion</legend>
+        <div class="shell__setting-options">
+          <label><input type="radio" name="motion-preference" value="system">System</label>
+          <label><input type="radio" name="motion-preference" value="reduce">Reduced</label>
+          <label><input type="radio" name="motion-preference" value="allow">Full</label>
+        </div>
+      </fieldset>
+      
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+      
+      
+      <p class="shell__status" role="status" data-settings-status data-storage-unavailable="Your preference applies to this page, but could not be saved for future visits."></p>
+    </section>
+  </dialog>
+</div>
+
+    </div>
+    
+  </header>
+  
+  <script>try{var h=document.currentScript.previousElementSibling,u=h&&h.querySelector(".frame__menu"),n=h&&h.querySelector(".frame__nav");if(u&&n){u.hidden=false;var c=getComputedStyle(u).display!=="none";h.setAttribute("data-navigation-mode",c?"compact":"direct");u.setAttribute("aria-expanded",String(!c));n.setAttribute("data-collapsed",String(c))}if(h){var s=h.getBoundingClientRect().height,d=document.documentElement;d.style.setProperty("--frame-header-height",s+"px");d.style.setProperty("--frame-chrome",(["fixed","sticky"].includes(getComputedStyle(h).position)?s:0)+"px")}}catch(x){}</script>
+
+  <main id="main" tabindex="-1" data-structure="collection">
+    
+    
+    <span id="reading-overflow-label" hidden>Scroll sideways to see the rest. Use the arrow keys when focused.</span>
+    
+
+    
+    
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    <div class="publication-layout">
+      
+      
+      
+      
+      
+      <div class="publication-body publication-body--product"><section class="project-overview"><header class="page-opening"><h1 id="monad">MONAD</h1>
+<p>An inventory says a part is in stock. Can it tell you whether the part fits the machine? MONAD studies which answers survive a change of description and what you need to recover a missing answer. It asks what would let a fixed frame become something a system can change without losing account of its meaning.</p>
+</header>
+<div class="project-summary prose-flow"><h2 id="when-a-better-answer-needs-a-different-language">When a better answer needs a different language</h2>
+<p><a href="https://causality.in/monad/what-a-summary-preserves/" data-gazette-link="content:causality-project-monad#link-1" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:monad-what-a-summary-preserves" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">Work through the stock-and-fit example</a> to see which questions an inventory can answer. A Lean library and paper develop the mathematics. A small Rust kernel supplies types and numerical operations for research code.</p>
+</div>
+
+
+
+
+
+<nav class="project-links project-resources" aria-label="Explore this product: MONAD">
+  <ul>
+  
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      
+        
+        <a class="control control--primary" href="https:&#x2F;&#x2F;docs.causality.in&#x2F;monad&#x2F;overview" aria-label="Docs: MONAD · Developer documentation" title="Developer documentation" 
+
+
+  
+  
+  
+  
+  
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>Docs</a>
+      
+    </li>
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      
+        
+        <a class="control control--primary" href="https:&#x2F;&#x2F;causality.in&#x2F;monad&#x2F;descriptions-and-repair&#x2F;" aria-label="Learn: MONAD · Use-case guide and practical applications" title="Use-case guide and practical applications" 
+
+
+  
+  
+  
+  
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:monad-docs"
+ data-gazette-destination-relationships="collection-member"
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Learn</a>
+      
+    </li>
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      
+        
+        <a class="control control--primary" href="https:&#x2F;&#x2F;github.com&#x2F;getHarshOnline&#x2F;MONAD" aria-label="GitHub: MONAD · Explore on GitHub" title="Explore on GitHub" 
+
+
+  
+  
+  
+  
+  
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>GitHub</a>
+      
+    </li>
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      
+        
+        <a class="control control--primary" href="https:&#x2F;&#x2F;causality.in&#x2F;monad&#x2F;mentions&#x2F;" aria-label="Mentions: MONAD · Writing that discusses or references this product" title="Writing that discusses or references this product" 
+
+
+  
+  
+  
+  
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:monad-mentions"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Mentions</a>
+      
+    </li>
+    
+  
+    
+    
+    
+    
+    
+    
+    
+  
+  </ul>
+</nav>
+
+</section>
+<section class="process-section"><div class="process-introduction prose-flow"><h2 id="follow-what-a-description-can-answer">Follow what a description can answer</h2>
+<p>Start with the answer you need. Try to reconstruct it from the shorter description, then work out which information a new observation could supply.</p>
+</div>
+<div data-gazette-component="process-path" data-gazette-component-address="content:causality-project-monad#component-7" data-gazette-state="pending" data-gazette-props="{&quot;label&quot;:&quot;From a required answer to a sufficient description&quot;}"><div data-gazette-fallback><section class="process-path" aria-label="From a required answer to a sufficient description">
+  <div class="process-path__layout">
+  <ol role="list" class="process-path__steps"><li class="process-step"><div class="process-path__copy"><h3 id="state-the-questions">State the questions</h3>
+<p>Decide which questions you need to answer now and after any changes you plan to make. An inventory for ordering parts and one for repairing a machine can need different information.</p>
+</div></li>
+<li class="process-step"><div class="process-path__copy"><h3 id="examine-the-transformation">Examine the transformation</h3>
+<p>Compare cases that the summary treats alike. In the example below, the stock summary gives the same answer for both parts even though only one fits.</p>
+</div></li>
+<li class="process-step"><div class="process-path__copy"><h3 id="repair-or-enrich-the-account">Repair or enrich the account</h3>
+<p>Recover the missing distinction from an available source, or enrich a description whose objects, questions or rules cannot express what is needed. The longer-term calculus also asks how the rules of change can themselves become objects of change.</p>
+</div></li>
+</ol>
+  </div>
+  
+</section>
+</div><div data-gazette-mount></div></div></section>
+<section class="research-comparison">
+  <div class="research-comparison__intro"><h2 id="questions-a-description-must-answer">Questions a description must answer</h2>
+<p>The stock summary cannot tell the two parts apart, but a compatibility record might supply the missing answer. Finding that record repairs an omission. If the description has no way to represent machines or their compatibility with parts, it needs a richer language before it can even ask the question. <a href="https://causality.in/monad/descriptions-and-repair/#the-representation-can-become-the-problem" data-gazette-link="content:causality-project-monad#link-2" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:monad-docs" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">Descriptions and repair</a> follows that distinction from an available observation to a change in what the description can express.</p>
+</div>
+  <figure class="research-comparison__figure">
+  <table>
+    <thead><tr><th scope="col">Available, fits</th><th scope="col">Stock summary</th><th scope="col">Can repair?</th></tr></thead>
+    <tbody>
+    
+      <tr>
+        <th scope="row"><code>(1,0)</code></th>
+        <td class="research-comparison__shared" rowspan="2"><code>a = 1</code></td>
+        <td class="research-comparison__answer">No</td>
+      </tr>
+    
+      <tr>
+        <th scope="row"><code>(1,1)</code></th>
+        
+        <td class="research-comparison__answer">Yes</td>
+      </tr>
+    
+    </tbody>
+  </table>
+  <figcaption class="research-comparison__caption">In this illustrative two-bit model, a records availability and b records fit. Both states are in stock; repair requires both.</figcaption>
+  </figure>
+</section>
+
+
+
+
+
+
+
+<section class="container-contents" aria-label="Guides">
+  <header class="quote-deck__header"><h2>Guides</h2></header>
+  
+  
+  
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+  
+    
+    
+<section data-autoplay="false" data-wheel="false" data-deck-field="viewport" class="quote-deck quote-deck--folder" data-content-deck aria-label="Guides">
+  
+  <div class="quote-deck__stage"><article class="quote-deck__card" data-deck-label="Descriptions and repair">
+
+
+
+
+
+
+<a class="folder-card folder-card--text" href="https:&#x2F;&#x2F;causality.in&#x2F;monad&#x2F;descriptions-and-repair&#x2F;" aria-labelledby="folder-title-container-final-1" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:monad-docs"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+ aria-describedby="folder-description-container-final-1"
+>
+  <span class="folder-card__inner">
+    
+    <span class="folder-card__copy">
+      <span class="folder-card__title" id="folder-title-container-final-1">Descriptions and repair</span>
+      <span class="folder-card__description" id="folder-description-container-final-1">See which answers survive a shorter description and when a missing distinction needs a richer one.</span>
+    </span>
+  </span>
+</a>
+</article><article class="quote-deck__card" data-deck-label="What a summary preserves">
+
+
+
+
+
+
+<a class="folder-card folder-card--text" href="https:&#x2F;&#x2F;causality.in&#x2F;monad&#x2F;what-a-summary-preserves&#x2F;" aria-labelledby="folder-title-container-final-2" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:monad-what-a-summary-preserves"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+ aria-describedby="folder-description-container-final-2"
+>
+  <span class="folder-card__inner">
+    
+    <span class="folder-card__copy">
+      <span class="folder-card__title" id="folder-title-container-final-2">What a summary preserves</span>
+      <span class="folder-card__description" id="folder-description-container-final-2">Work through answer-preserving compression and the different ways a missing distinction can be repaired.</span>
+    </span>
+  </span>
+</a>
+</article></div>
+  
+  
+  
+<nav class="carousel-controls quote-deck__controls" aria-label="Guides" hidden>
+  <div class="carousel-controls__arrows quote-deck__arrows">
+    <button class="control control--navigation" type="button" data-quote-previous aria-label="Previous item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H6m5-6-6 6 6 6" /></svg></button>
+    <button class="control control--navigation" type="button" data-quote-next aria-label="Next item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" /></svg></button>
+  </div>
+  <button class="control control--navigation control--compact carousel-controls__playback quote-deck__playback" type="button" data-quote-playback data-pause-label="Pause carousel" data-resume-label="Play carousel" hidden>Pause carousel</button>
+  <output class="carousel-controls__position quote-deck__position" aria-live="polite" aria-atomic="true"></output>
+</nav>
+
+</section>
+
+  
+</section>
+
+
+
+<section class="faq" itemscope itemtype="https://schema.org/FAQPage"><h2 id="questions-about-monad">Questions about MONAD</h2>
+<details class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<summary itemprop="name">What does MONAD let researchers do?</summary>
+<div class="faq-item__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div class="prose-flow" itemprop="text"><p>State which distinctions a representation must preserve, examine a transformation or compression, and reason about the information and cost needed to repair an inadequate account. The Lean library makes parts of that mathematics exact, and the Rust kernel brings its types and numerical operations into research code.</p>
+</div></div>
+</details>
+<details class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<summary itemprop="name">Is MONAD only about AI?</summary>
+<div class="faq-item__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div class="prose-flow" itemprop="text"><p>MONAD is a pure mathematical programme, and AI is one source of its examples. Adaptive models, changing scientific descriptions and other systems supply examples and tests; they do not define its axioms.</p>
+</div></div>
+</details>
+<details class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<summary itemprop="name">How does the stock-and-fit example relate to the larger aim?</summary>
+<div class="faq-item__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div class="prose-flow" itemprop="text"><p>It shows a summary preserving availability while losing the distinction needed for repair. Moving from that fixed example to descriptions whose objects, questions and rules can change is the broader research task.</p>
+</div></div>
+</details>
+<details class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<summary itemprop="name">Do I need software to follow MONAD?</summary>
+<div class="faq-item__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div class="prose-flow" itemprop="text"><p>You can read the worked example without software. <a href="https://causality.in/monad/descriptions-and-repair/" data-gazette-link="content:causality-project-monad#link-3" data-gazette-destination-kind="internal-native" data-gazette-destination-content="content:monad-docs" data-gazette-destination-site="site:causality" data-gazette-destination-relationships="collection-member" data-gazette-destination-theme="theme:lattice">Descriptions and repair</a> then follows the same question into the Lean library and the Rust kernel.</p>
+</div></div>
+</details>
+</section>
+</div>
+
+      
+    </div>
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+<div class="services-closing">
+<section class="focus-reveal focus-reveal--centred" data-focus-reveal data-focus-mode="once">
+<div class="services-invitation focus-reveal__content">
+  <h2>Engage our services</h2>
+  <a class="control control--primary" data-enquiry-button="services-invitation" href="https:&#x2F;&#x2F;rawthoughts.in&#x2F;services&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="cross-site"
+ data-relationship="crossing"
+
+ data-gazette-destination-site="site:rawthoughts"
+ data-gazette-destination-content="content:rawthoughts-services"
+
+
+ data-gazette-destination-theme="theme:carrier"
+ 
+
+
+
+
+ aria-describedby=" crossing-description"
+>Learn More</a>
+</div>
+</section>
+</div>
+
+
+
+    
+  </main>
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="frame__footer" aria-label="Site footer">
+    <div class="frame__footer-main">
+      <div class="frame__footer-profile">
+              
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        <a class="frame__brand frame__footer-brand" href="https:&#x2F;&#x2F;causality.in&#x2F;" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+>Causality</a>
+        <p class="frame__footer-description">A mathematical programme and learning architectures for systems that can change their descriptions and organisation.</p>
+      
+      </div>
+      
+      
+      <div class="frame__footer-colophon">
+        <p class="frame__footer-copyright">© 2026 RawThoughts Enterprises Private Limited</p>
+        
+        <p class="frame__footer-credit">Made with <span role="img" aria-label="love">❤️</span> using <a href="https:&#x2F;&#x2F;rawthoughts.in&#x2F;gazette&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="cross-site"
+ data-relationship="crossing"
+
+ data-gazette-destination-site="site:rawthoughts"
+ data-gazette-destination-content="content:gazette-introduction"
+
+
+ data-gazette-destination-theme="theme:carrier"
+ 
+
+
+
+
+ aria-describedby=" crossing-description"
+>Gazette</a> · <a class="frame__footer-theme" href="https:&#x2F;&#x2F;github.com&#x2F;getHarshOnline&#x2F;gazette-theme-lattice" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>Lattice theme</a></p>
+        
+      </div>
+      
+      <div class="frame__footer-connections">
+        
+        <ul class="frame__footer-social">
+        
+        
+          
+        
+        
+          <li><a href="mailto:hi@causality.in" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>Email</a></li>
+        
+        
+          
+          
+          
+          <li><a href="https:&#x2F;&#x2F;github.com&#x2F;getHarshOnline" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>GitHub</a></li>
+          
+          
+          
+          
+          <li><a href="https:&#x2F;&#x2F;x.com&#x2F;getHarshOnline" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>X</a></li>
+          
+          
+          
+          
+          <li><a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@ProjectCausality" 
+
+
+
+ data-gazette-destination-kind="external"
+ data-relationship="external"
+
+
+
+
+
+ rel=" external"
+
+
+ aria-describedby=" external-description"
+>YouTube</a></li>
+          
+          
+        
+        </ul>
+        
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <ul class="frame__footer-supporting">
+    
+      
+    
+      <li><a data-enquiry-button="services-footer" href="https:&#x2F;&#x2F;rawthoughts.in&#x2F;services&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="cross-site"
+ data-relationship="crossing"
+
+ data-gazette-destination-site="site:rawthoughts"
+ data-gazette-destination-content="content:rawthoughts-services"
+
+
+ data-gazette-destination-theme="theme:carrier"
+ 
+
+
+
+
+ aria-describedby=" crossing-description"
+>Services</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;privacy&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-privacy"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Privacy</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;terms&#x2F;" 
+
+
+  
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+ data-gazette-destination-content="content:causality-terms"
+
+
+ data-gazette-destination-theme="theme:lattice"
+ 
+
+
+
+
+
+>Terms</a></li>
+    
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;sitemap.xml" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="application&#x2F;xml">Sitemap</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;llms.txt" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="text&#x2F;plain">llms.txt</a></li>
+    
+    
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;feed.xml" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="application&#x2F;atom+xml" rel="alternate">Atom</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;feed.json" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="application&#x2F;feed+json" rel="alternate">JSON Feed</a></li>
+    
+      <li><a href="https:&#x2F;&#x2F;causality.in&#x2F;rss.xml" 
+
+
+
+ data-gazette-destination-kind="internal-native"
+ data-relationship="native"
+
+ data-gazette-destination-site="site:causality"
+
+
+
+
+
+
+
+ type="application&#x2F;rss+xml" rel="alternate">RSS</a></li>
+    
+    
+    </ul>
+    
+      </div>
+      
+    </div>
+  </footer>
+
+</body>
+</html>

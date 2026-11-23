@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="620" viewBox="0 0 420 620" role="img" aria-labelledby="plot-title plot-desc">
+<title id="plot-title">Record noise and reconstruction horizon</title><desc id="plot-desc">At decay rate one, noise bounds 0.001 and 0.0001 reach the same error tolerance 0.1 at lookbacks 4.605 and 6.908. The smaller noise adds 2.303 time units.</desc>
+<text x="20.000" y="28.000" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" text-anchor="start">Worst-case error</text>
+<path d="M20 64H48" fill="none" stroke="var(--color-accent, #215a83)" stroke-width="2"/>
+<text x="60.000" y="71.000" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" text-anchor="start">Noise bound 0.001</text>
+<path d="M20 96H48" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="60.000" y="103.000" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" text-anchor="start">Noise bound 0.0001</text>
+<path d="M100 150V420H388" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M94 420.000H100" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="85.000" y="427.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="end">0.0001</text>
+<path d="M94 312.000H100" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="85.000" y="319.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="end">0.01</text>
+<path d="M94 204.000H100" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="85.000" y="211.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="end">1</text>
+<path d="M100 420V426" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="100.000" y="453.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="middle">0</text>
+<path d="M170 420V426" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="170.000" y="453.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="middle">2</text>
+<path d="M240 420V426" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="240.000" y="453.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="middle">4</text>
+<path d="M310 420V426" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="310.000" y="453.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="middle">6</text>
+<path d="M380 420V426" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="380.000" y="453.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="middle">8</text>
+<path d="M100 258.000H388" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1" stroke-dasharray="1 6"/>
+<text x="105.000" y="242.000" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" text-anchor="start">Allowed error 0.1</text>
+<path d="M100 366.000L380 178.385" fill="none" stroke="var(--color-accent, #215a83)" stroke-width="2.2"/>
+<circle cx="261.181" cy="258.000" r="4" fill="var(--color-accent, #215a83)"/>
+<path d="M261.181 265.000V420" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1" stroke-dasharray="1 5"/>
+<path d="M100 420.000L380 232.385" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="2.2" stroke-dasharray="7 5"/>
+<circle cx="341.771" cy="258.000" r="4" fill="var(--color-ink, #252c35)"/>
+<path d="M341.771 265.000V420" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1" stroke-dasharray="1 5"/>
+<text x="240.000" y="488.000" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" text-anchor="middle">Lookback (time units)</text>
+<text x="20.000" y="526.000" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" text-anchor="start">Horizon</text>
+<text x="256.181" y="526.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="middle">4.605</text>
+<text x="346.771" y="526.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="middle">6.908</text>
+<path d="M261.181 537V548H341.771V537" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="301.476" y="580.000" fill="var(--color-ink, #252c35)" font-family="var(--world-type-numeric-family, sans-serif)" font-size="20" text-anchor="middle">+2.303</text>
+<text x="230.000" y="613.000" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" text-anchor="middle">Decay rate 1 per time unit</text>
+</svg>

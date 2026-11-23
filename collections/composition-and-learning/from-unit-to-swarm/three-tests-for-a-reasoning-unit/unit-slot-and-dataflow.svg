@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="910" viewBox="0 0 420 910" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">A request through the MUON slot</title><desc id="figure-desc">Caller requirements and filler capabilities inform estimated demand, compared with capacity and availability. Atomic reservation creates a lease or refuses. Inference and lifecycle events contribute ordered records to a host-owned store.</desc>
+<text x="105" y="32" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Caller</text>
+<text x="105" y="58" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">requirements</text>
+<text x="105" y="102" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Input, time,</text>
+<text x="105" y="129" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">state and replay</text>
+<text x="315" y="32" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Filler</text>
+<text x="315" y="58" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">capabilities</text>
+<text x="315" y="102" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Model, tokenizer</text>
+<text x="315" y="129" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">and backend</text>
+<path d="M30 147H180 M240 147H390 M105 160V190H315V160 M210 190V220" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M206 214L210 220L214 214" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="210" y="247" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Estimate demand</text>
+<text x="210" y="278" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Compare with capacity</text>
+<text x="210" y="305" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">and current availability</text>
+<path d="M210 320V355" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M206 349L210 355L214 349" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="210" y="384" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Reserve atomically</text>
+<text x="210" y="412" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Bind a live lease</text>
+<path d="M105 428H315" fill="none" stroke="var(--color-accent, #215a83)" stroke-width="2"/>
+<path d="M210 440V464 M85 530V464H305V530" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M81 524L85 530L89 524" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M301 524L305 530L309 524" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="43" y="490" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="18" font-weight="400" text-anchor="middle">Failed or</text>
+<text x="43" y="514" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="18" font-weight="400" text-anchor="middle">expired</text>
+<text x="357" y="502" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="18" font-weight="400" text-anchor="middle">Reserved</text>
+<text x="85" y="558" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Refuse</text>
+<text x="85" y="587" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">No allocation</text>
+<text x="305" y="558" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Infer</text>
+<text x="305" y="587" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Output + state</text>
+<path d="M305 602V658" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M301 652L305 658L309 652" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M305 617H105V652" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M101 646L105 652L109 646" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="105" y="681" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Ordered records</text>
+<text x="105" y="710" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Episode, step,</text>
+<text x="105" y="737" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">sequence</text>
+<text x="305" y="684" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Lifecycle</text>
+<text x="305" y="713" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">Checkpoint,</text>
+<text x="305" y="740" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="400" text-anchor="middle">restore, shutdown</text>
+<path d="M221 717H194" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M200 713L194 717L200 721" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M105 756V805H210V843" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<path d="M206 837L210 843L214 837" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+<text x="210" y="874" fill="var(--color-ink, #252c35)" font-family="var(--type-family-reading, sans-serif)" font-size="20" font-weight="500" text-anchor="middle">Host-owned store</text>
+<path d="M100 891H320" fill="none" stroke="var(--color-ink, #252c35)" stroke-width="1.5"/>
+</svg>
