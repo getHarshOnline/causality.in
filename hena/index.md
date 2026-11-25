@@ -24,6 +24,8 @@ Can a warning read by one small unit reach another unit’s later decision? HENA
 
 - [Mentions](https://causality.in/hena/mentions/ "Writing that discusses or references this product") 
 
+- [Licence](https://github.com/getHarshOnline/HENA/blob/main/LICENSE "Read the source licence") 
+
 <a id="a-whole-answer-from-local-views"></a>
 
 ## A whole answer from local views

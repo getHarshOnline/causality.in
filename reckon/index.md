@@ -26,6 +26,8 @@ To find out whether one record helped, compare runs with that instance present a
 
 - [Mentions](https://causality.in/reckon/mentions/ "Writing that discusses or references this product") 
 
+- [Licence](https://github.com/getHarshOnline/reckon/blob/main/LICENSE "Read the source licence") 
+
 <a id="follow-what-a-memory-changes"></a>
 
 ## Follow what a memory changes

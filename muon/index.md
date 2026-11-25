@@ -22,6 +22,8 @@ A common interface lets the caller try an existing model first and test a unit t
 
 - [Mentions](https://causality.in/muon/mentions/ "Writing that discusses or references this product") 
 
+- [Licence](https://github.com/getHarshOnline/MUON/blob/main/LICENSE "Read the source licence") 
+
 <a id="experience-that-changes-the-next-computation"></a>
 
 ## Experience that changes the next computation
