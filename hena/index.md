@@ -26,6 +26,8 @@ Can a warning read by one small unit reach another unit’s later decision? HENA
 
 - [Licence](https://github.com/getHarshOnline/HENA/blob/main/LICENSE "Read the source licence") 
 
+- [Notices](https://github.com/getHarshOnline/HENA/blob/main/NOTICE "Read the distribution notices") 
+
 <a id="a-whole-answer-from-local-views"></a>
 
 ## A whole answer from local views

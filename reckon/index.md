@@ -28,6 +28,8 @@ To find out whether one record helped, compare runs with that instance present a
 
 - [Licence](https://github.com/getHarshOnline/reckon/blob/main/LICENSE "Read the source licence") 
 
+- [Notices](https://github.com/getHarshOnline/reckon/blob/main/NOTICE "Read the distribution notices") 
+
 <a id="follow-what-a-memory-changes"></a>
 
 ## Follow what a memory changes

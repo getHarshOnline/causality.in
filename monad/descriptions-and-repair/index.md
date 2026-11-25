@@ -2,6 +2,8 @@ Title: Descriptions and repair
 
 [Read HTML](https://causality.in/monad/descriptions-and-repair/)
 
+Author: Harsh Joshi
+
 Rights holder: RawThoughts Enterprises Private Limited
 
 <a id="descriptions-and-repair"></a>

@@ -2,6 +2,8 @@ Title: What a summary preserves
 
 [Read HTML](https://causality.in/monad/what-a-summary-preserves/)
 
+Author: Harsh Joshi
+
 Rights holder: RawThoughts Enterprises Private Limited
 
 <a id="what-a-summary-preserves"></a>

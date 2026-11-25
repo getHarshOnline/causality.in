@@ -24,6 +24,8 @@ A common interface lets the caller try an existing model first and test a unit t
 
 - [Licence](https://github.com/getHarshOnline/MUON/blob/main/LICENSE "Read the source licence") 
 
+- [Notices](https://github.com/getHarshOnline/MUON/blob/main/NOTICE "Read the distribution notices") 
+
 <a id="experience-that-changes-the-next-computation"></a>
 
 ## Experience that changes the next computation

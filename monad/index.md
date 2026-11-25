@@ -24,6 +24,8 @@ An inventory says a part is in stock. Can it tell you whether the part fits the 
 
 - [Licence](https://github.com/getHarshOnline/MONAD/blob/main/LICENSE "Read the source licence") 
 
+- [Notices](https://github.com/getHarshOnline/MONAD/blob/main/NOTICE "Read the distribution notices") 
+
 <a id="follow-what-a-description-can-answer"></a>
 
 ## Follow what a description can answer
