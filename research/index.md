@@ -2,8 +2,6 @@ Title: Research projects
 
 [Read HTML](https://causality.in/research/)
 
-Author: Harsh Joshi
-
 <a id="monad"></a>
 
 ## [MONAD](https://causality.in/monad/)
@@ -52,9 +50,9 @@ Pause carousel
 
 ### Intelligence in a working system
 
-Reasoning has to meet the work around it. RawThoughts’ products make one system of that work, with people deciding. [Pale](https://rawthoughts.in/pale/) is the meta harness through which they act, a harness over the tools people already use; it carries a goal forward through people, agents and applications, with useful context and the decisions that need a person kept in view.
+Reasoning has to meet the work around it. RawThoughts’ products make one system of that work, with people deciding. [Pale](https://rawthoughts.in/pale/) (on RawThoughts) is the meta harness through which they act, a harness over the tools people already use; it carries a goal forward through people, agents and applications, with useful context and the decisions that need a person kept in view.
 
-[Explore the systems](https://rawthoughts.in/products/)
+[Explore the systems](https://rawthoughts.in/products/) (on RawThoughts)
 
 <a id="what-cheaper-intelligence-changes"></a>
 
@@ -62,7 +60,7 @@ Reasoning has to meet the work around it. RawThoughts’ products make one syste
 
 As cognitive work gets cheaper, constraints can move to energy, ownership and the institutions around production. Post-AGI Economics follows those consequences for firms, households and the models used to understand them.
 
-[Explore the economic inquiry](https://post-agi-economics.org/)
+[Explore the economic inquiry](https://post-agi-economics.org/) (on Post-AGI Economics)
 
 <a id="the-questions-behind-the-models"></a>
 

@@ -90,7 +90,7 @@ For Rust integration, the repository's kernel guide compares two finite probabil
 
 ## Where MONAD sits beside Pale, MUON and HENA
 
-[Pale](https://rawthoughts.in/pale/) works within an explicit world model. [MUON](https://causality.in/muon/) and [HENA](https://causality.in/hena/) investigate how adaptive units and their collective organisation might change. Their practical questions can test MONAD's usefulness, while its mathematical definitions remain independent of those applications. [Economic transitions](https://post-agi-economics.org/collections/thinking-gets-cheap/from-abundance-to-a-changed-description/transition-dynamics/) pose a related question: when is a changed parameter enough, and when do the actors or relations themselves need to change?
+[Pale](https://rawthoughts.in/pale/) (on RawThoughts) works within an explicit world model. [MUON](https://causality.in/muon/) and [HENA](https://causality.in/hena/) investigate how adaptive units and their collective organisation might change. Their practical questions can test MONAD's usefulness, while its mathematical definitions remain independent of those applications. [Economic transitions](https://post-agi-economics.org/collections/thinking-gets-cheap/from-abundance-to-a-changed-description/transition-dynamics/) (on Post-AGI Economics) pose a related question: when is a changed parameter enough, and when do the actors or relations themselves need to change?
 
 <a id="availability"></a>
 
@@ -100,3 +100,6 @@ The Lean library and paper require source access. The existing proofs hold under
 
 
 Reading path: [MONAD](https://causality.in/monad/) > [Descriptions and repair](https://causality.in/monad/descriptions-and-repair/)
+
+
+Source code for [MONAD](https://github.com/getHarshOnline/MONAD) is credited to [Harsh Joshi](https://getharsh.in/about/).

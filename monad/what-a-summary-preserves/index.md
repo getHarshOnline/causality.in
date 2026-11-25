@@ -75,3 +75,6 @@ The formal guide in the [MONAD repository](https://github.com/getHarshOnline/MON
 
 
 Reading path: [MONAD](https://causality.in/monad/) > [What a summary preserves](https://causality.in/monad/what-a-summary-preserves/)
+
+
+Source code for [MONAD](https://github.com/getHarshOnline/MONAD) is credited to [Harsh Joshi](https://getharsh.in/about/).

@@ -4,274 +4,34 @@
 
 
 
-- [About Causality](https://causality.in/about/index.md): How Causality connects changing descriptions, learning within a unit and learning among units, with experiments that test what helps. ([HTML](https://causality.in/about/))
+## Start here
 
-- [Beyond the Mirage: a framework for AGI classification and controllable progress](https://causality.in/blog/beyond-the-mirage/index.md): The proposed Agentic Causal Intelligence framework separates causal reasoning from autonomy, then asks what evidence and controls each capability needs. ([HTML](https://causality.in/blog/beyond-the-mirage/))
-
-- [Entropy and a learning mind](https://causality.in/blog/entropy-and-a-learning-mind/index.md): A broken mug starts an early question about neural networks: what happens to useful initial intuitions when learning never stops? ([HTML](https://causality.in/blog/entropy-and-a-learning-mind/))
-
-- [The future can constrain a model without sending a message back](https://causality.in/blog/future-without-retrocausation/index.md): An endpoint calculation asks how a future condition shapes a whole path, and where its information enters the problem. ([HTML](https://causality.in/blog/future-without-retrocausation/))
-
-- [Blog](https://causality.in/blog/index.md): Worked questions about distinctions, causal evidence and learning under limits. ([HTML](https://causality.in/blog/))
-
-- [The ineffable geometry](https://causality.in/blog/the-ineffable-geometry/index.md): A vocabulary we do not yet share, a line through an imagined time, and an early hunch about geometry, causality and intelligence. ([HTML](https://causality.in/blog/the-ineffable-geometry/))
-
-- [The record and the arrow](https://causality.in/blog/the-record-and-the-arrow/index.md): A reversible motion leaves an ambiguous record: where did the recoverable past disappear? ([HTML](https://causality.in/blog/the-record-and-the-arrow/))
-
-- [When effects cancel along a path](https://causality.in/blog/when-effects-cancel/index.md): An exact xor model makes two interventions compose differently, leaving a path without the expected end-to-end effect. ([HTML](https://causality.in/blog/when-effects-cancel/))
-
-- [When the support moves](https://causality.in/blog/when-the-support-moves/index.md): A measurement beyond the old endpoint changes what one sample can establish; an exact test follows the consequence. ([HTML](https://causality.in/blog/when-the-support-moves/))
-
-- [What can you distinguish with one more move?](https://causality.in/collections/changing-descriptions/from-summary-to-repair/budgeted-questions/index.md): Rotating three bits makes another feature visible and spends part of the observer's remaining investigation. ([HTML](https://causality.in/collections/changing-descriptions/from-summary-to-repair/budgeted-questions/))
-
-- [Compression is a promise about questions](https://causality.in/collections/changing-descriptions/from-summary-to-repair/compression-is-a-promise/index.md): Yesterday's summary answered every question we asked. A new question reveals the distinction it chose not to keep. ([HTML](https://causality.in/collections/changing-descriptions/from-summary-to-repair/compression-is-a-promise/))
-
-- [From summary to repair](https://causality.in/collections/changing-descriptions/from-summary-to-repair/index.md): An ordered path from a lost answer through affordable questions to the full cost of an accessible repair. ([HTML](https://causality.in/collections/changing-descriptions/from-summary-to-repair/))
-
-- [The price of another question](https://causality.in/collections/changing-descriptions/from-summary-to-repair/the-price-of-another-question/index.md): A finite query tree finds the cheapest complete repair, rather than the cheapest first read. ([HTML](https://causality.in/collections/changing-descriptions/from-summary-to-repair/the-price-of-another-question/))
-
-- [Changing descriptions](https://causality.in/collections/changing-descriptions/index.md): What survives a changed question, a noisy observation or another representational basis? ([HTML](https://causality.in/collections/changing-descriptions/))
-
-- [How tolerances accumulate](https://causality.in/collections/changing-descriptions/preservation-under-uncertainty/how-tolerances-accumulate/index.md): Each replacement stays close to its predecessor. How far can the chain travel from the original? ([HTML](https://causality.in/collections/changing-descriptions/preservation-under-uncertainty/how-tolerances-accumulate/))
-
-- [Preservation under uncertainty](https://causality.in/collections/changing-descriptions/preservation-under-uncertainty/index.md): What remains usable when observations are noisy, experiments are simulated and approximations accumulate? ([HTML](https://causality.in/collections/changing-descriptions/preservation-under-uncertainty/))
-
-- [When one experiment can stand in for another](https://causality.in/collections/changing-descriptions/preservation-under-uncertainty/one-experiment-through-another/index.md): A common simulator transfers a decision rule between observation laws. Its error controls the change in bounded loss. ([HTML](https://causality.in/collections/changing-descriptions/preservation-under-uncertainty/one-experiment-through-another/))
-
-- [A noisy answer is not an exact repair](https://causality.in/collections/changing-descriptions/preservation-under-uncertainty/recovering-a-distinction-from-a-noisy-answer/index.md): A one-bit report can be useful without restoring the missing bit. Repetition changes risk only when it supplies new evidence. ([HTML](https://causality.in/collections/changing-descriptions/preservation-under-uncertainty/recovering-a-distinction-from-a-noisy-answer/))
-
-- [When the description must change](https://causality.in/collections/changing-descriptions/when-the-description-must-change/index.md): A perfect estimate cannot supply a relation its language never represented. What would make that inadequacy visible? ([HTML](https://causality.in/collections/changing-descriptions/when-the-description-must-change/))
-
-- [Which factors did we recover?](https://causality.in/collections/changing-descriptions/which-factors-did-we-recover/index.md): Independent latent coordinates and perfect reconstruction need not identify the quantities we intended to describe. ([HTML](https://causality.in/collections/changing-descriptions/which-factors-did-we-recover/))
-
-- [Change the rule without moving the finish line](https://causality.in/collections/composition-and-learning/changing-the-rule/index.md): What happens when an evolving routing rule can improve its score by changing what counts as success? ([HTML](https://causality.in/collections/composition-and-learning/changing-the-rule/))
-
-- [What would count as emergent hierarchy?](https://causality.in/collections/composition-and-learning/from-unit-to-swarm/emergence-needs-a-comparison/index.md): An early cue and a later request reach different units. Can their learned organisation carry the relation into an answer? ([HTML](https://causality.in/collections/composition-and-learning/from-unit-to-swarm/emergence-needs-a-comparison/))
-
-- [From unit to swarm](https://causality.in/collections/composition-and-learning/from-unit-to-swarm/index.md): Compare a unit's contract, a composition's joint constraints and the contribution of its organisation. ([HTML](https://causality.in/collections/composition-and-learning/from-unit-to-swarm/))
-
-- [Three tests for a reasoning unit](https://causality.in/collections/composition-and-learning/from-unit-to-swarm/three-tests-for-a-reasoning-unit/index.md): A replacement model returns a valid reply but fails the caller's task; the shared boundary gives three different things to investigate. ([HTML](https://causality.in/collections/composition-and-learning/from-unit-to-swarm/three-tests-for-a-reasoning-unit/))
-
-- [Every pair can agree while the whole differs](https://causality.in/collections/composition-and-learning/from-unit-to-swarm/when-pairs-agree-and-the-whole-differs/index.md): Matching pairs can leave incompatible wholes possible; parity and simultaneous reservations reveal different missing relations. ([HTML](https://causality.in/collections/composition-and-learning/from-unit-to-swarm/when-pairs-agree-and-the-whole-differs/))
-
-- [Composition and learning](https://causality.in/collections/composition-and-learning/index.md): What can reasoning units learn through their organisation, and how can we distinguish that contribution from the abilities of their parts? ([HTML](https://causality.in/collections/composition-and-learning/))
-
-- [Comparing a quantum unit with its classical counterpart](https://causality.in/collections/composition-and-learning/quantum-comparison/index.md): Where does a quantum candidate's useful contribution survive preparation, measurement and comparison with classical methods? ([HTML](https://causality.in/collections/composition-and-learning/quantum-comparison/))
-
-- [Recovery across a changing world](https://causality.in/collections/composition-and-learning/recovery-across-a-changing-world/index.md): A saved swarm returns to a world whose leases and components have changed; what can its recovery actually preserve? ([HTML](https://causality.in/collections/composition-and-learning/recovery-across-a-changing-world/))
-
-- [What should a surprise change?](https://causality.in/collections/composition-and-learning/what-should-a-surprise-change/index.md): A traffic prediction fails. Should the unit remember the event, adjust a parameter or propose another account of the road? ([HTML](https://causality.in/collections/composition-and-learning/what-should-a-surprise-change/))
-
-- [Did the cache make it faster?](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/causal-inference-primer/index.md): Latency falls after a cache rollout. Which comparison could separate the cache's contribution from the changing traffic? ([HTML](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/causal-inference-primer/))
-
-- [EMA and Bayesian updates for online scoring](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/ema-vs-bayesian-updates/index.md): Follow an implemented EMA update into delayed-cue retention, then compare what a candidate Bayesian estimate would add. ([HTML](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/ema-vs-bayesian-updates/))
-
-- [Four questions behind a benchmark result](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/four-questions-for-an-evaluation/index.md): A retention policy beats learned utility and loses to no memory: four questions examine what the completed benchmark supports. ([HTML](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/four-questions-for-an-evaluation/))
-
-- [From observation to evaluation](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/index.md): Follow an engineering intervention into the question of how a memory score earns trust. ([HTML](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/))
-
-- [What did selective memory buy?](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/what-did-selective-memory-buy/index.md): Reckon's completed memory experiments find small gains, a loss against no memory, and a large price for measuring which records to retain. ([HTML](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/what-did-selective-memory-buy/))
-
-- [What does the measurement establish?](https://causality.in/collections/evidence-and-evaluation/index.md): A record gets its chance to be useful through the policy that selects it. How can its contribution be estimated? ([HTML](https://causality.in/collections/evidence-and-evaluation/))
-
-- [Thoughts](https://causality.in/collections/index.md): Three connected inquiries: what a summary preserves, what units learn through how they are organised and what an evaluation shows about a change. Each begins with a question and develops it through small examples; standalone pieces are on the Blog. ([HTML](https://causality.in/collections/))
-
-- [Why communication and memory are computation](https://causality.in/hena/communication-and-memory/index.md): Follow how local views, sparse messages and limited collective memory could contribute to HENA’s answer. ([HTML](https://causality.in/hena/communication-and-memory/))
-
-- [How units form a collective](https://causality.in/hena/how-units-form-a-collective/index.md): Follow a repair example to see how local reasoning, a few messages and limited memory could help units solve a task together. ([HTML](https://causality.in/hena/how-units-form-a-collective/))
-
-- [HENA](https://causality.in/hena/index.md): A research project on how small reasoning units learn to solve a task together, the collective that the Causality programme works towards. ([HTML](https://causality.in/hena/))
-
-- [HENA mentions](https://causality.in/hena/mentions/index.md): Writing that discusses or references HENA across the connected publications. ([HTML](https://causality.in/hena/mentions/))
-
-- [Some questions need another description.](https://causality.in/index.md): A mathematical programme and learning architectures for systems that can change their descriptions and organisation. ([HTML](https://causality.in/))
-
-- [Descriptions and repair](https://causality.in/monad/descriptions-and-repair/index.md): See which answers survive a shorter description and when a missing distinction needs a richer one. ([HTML](https://causality.in/monad/descriptions-and-repair/))
-
-- [MONAD](https://causality.in/monad/index.md): A calculus for preserving, compressing and changing what a description can express. ([HTML](https://causality.in/monad/))
-
-- [MONAD mentions](https://causality.in/monad/mentions/index.md): Writing that discusses or references MONAD across the connected publications. ([HTML](https://causality.in/monad/mentions/))
-
-- [What a summary preserves](https://causality.in/monad/what-a-summary-preserves/index.md): Work through answer-preserving compression and the different ways a missing distinction can be repaired. ([HTML](https://causality.in/monad/what-a-summary-preserves/))
-
-- [Computation, state and learning](https://causality.in/muon/computation-state-and-learning/index.md): Follow a road notice into the next route answer and see how MUON would compare different reasoning units. ([HTML](https://causality.in/muon/computation-state-and-learning/))
-
-- [How experience can change a unit](https://causality.in/muon/how-experience-changes-a-unit/index.md): Follow a road notice through an immediate answer, later recall, learning and a proposed change to the unit. ([HTML](https://causality.in/muon/how-experience-changes-a-unit/))
-
-- [MUON](https://causality.in/muon/index.md): Research into how a small reasoning unit uses past observations, learns and works with other units. ([HTML](https://causality.in/muon/))
-
-- [MUON mentions](https://causality.in/muon/mentions/index.md): Writing that discusses or references MUON across the connected publications. ([HTML](https://causality.in/muon/mentions/))
-
-- [Privacy notice](https://causality.in/privacy/index.md): Website hosting, email contact, reading preferences and external reading assistance for RTEPL's editorial publications. ([HTML](https://causality.in/privacy/))
-
-- [Q-HENA](https://causality.in/q-hena/index.md): Research into how quantum units share work, communicate and recover together. ([HTML](https://causality.in/q-hena/))
-
-- [Q-HENA mentions](https://causality.in/q-hena/mentions/index.md): Writing that discusses or references Q-HENA across the connected publications. ([HTML](https://causality.in/q-hena/mentions/))
-
-- [Quantum collective computation](https://causality.in/q-hena/quantum-collective-computation/index.md): Follow a proposed joint operation between two quantum units and see what changes when one must restart. ([HTML](https://causality.in/q-hena/quantum-collective-computation/))
-
-- [Q-MUON](https://causality.in/q-muon/index.md): Research into a quantum reasoning unit that keeps MUON’s caller interface. ([HTML](https://causality.in/q-muon/))
-
-- [Q-MUON mentions](https://causality.in/q-muon/mentions/index.md): Writing that discusses or references Q-MUON across the connected publications. ([HTML](https://causality.in/q-muon/mentions/))
-
-- [The quantum local unit](https://causality.in/q-muon/the-quantum-local-unit/index.md): Follow a proposed quantum similarity calculation and see what a comparison with a classical unit would need to measure. ([HTML](https://causality.in/q-muon/the-quantum-local-unit/))
-
-- [Cases, evaluations and decisions](https://causality.in/reckon/cases-evaluations-and-decisions/index.md): Follow two teams comparing a memory rule, from a shared test case to deciding whether to use it. ([HTML](https://causality.in/reckon/cases-evaluations-and-decisions/))
-
-- [Compare two replay budgets](https://causality.in/reckon/compare-replay-budgets/index.md): Follow a local continual-classification comparison from matched inputs through saved accuracy matrices and event logs to their interpretation. ([HTML](https://causality.in/reckon/compare-replay-budgets/))
-
-- [Reckon](https://causality.in/reckon/index.md): Measure what memory changes for its cost, and compare proposed improvements before deciding to use them. ([HTML](https://causality.in/reckon/))
-
-- [Inspect an exported run](https://causality.in/reckon/inspect-an-exported-run/index.md): Follow a record through writes, reads and removals in a saved event log. ([HTML](https://causality.in/reckon/inspect-an-exported-run/))
-
-- [Reckon mentions](https://causality.in/reckon/mentions/index.md): Writing that discusses or references Reckon across the connected publications. ([HTML](https://causality.in/reckon/mentions/))
-
-- [Understand the memory laboratory](https://causality.in/reckon/understand-the-memory-laboratory/index.md): Choose a task, compare memory policies and read the saved results. ([HTML](https://causality.in/reckon/understand-the-memory-laboratory/))
+- [Some questions need another description.](https://causality.in/index.md) ([HTML](https://causality.in/))
 
 - [Research projects](https://causality.in/research/index.md): The calculus, local units, collective architectures and measurement tools behind Causality’s research programme. ([HTML](https://causality.in/research/))
 
-- [Search](https://causality.in/search/index.md): Find pages, articles and collections from Causality. ([HTML](https://causality.in/search/))
+- [Thoughts](https://causality.in/collections/index.md): Three connected inquiries: what a summary preserves, what units learn through how they are organised and what an evaluation shows about a change. Each begins with a question and develops it through small examples; standalone pieces are on the Blog. ([HTML](https://causality.in/collections/))
 
-- [Terms of use](https://causality.in/terms/index.md): Use and reuse of RTEPL's editorial publications and contact with the publisher. ([HTML](https://causality.in/terms/))
+- [Blog](https://causality.in/blog/index.md): Worked questions about distinctions, causal evidence and learning under limits. ([HTML](https://causality.in/blog/))
 
-- [Building](https://docs.causality.in/hena/building)
+- [About Causality](https://causality.in/about/index.md): How Causality connects changing descriptions, learning within a unit and learning among units, with experiments that test what helps. ([HTML](https://causality.in/about/))
 
-- [HENA](https://docs.causality.in/hena/overview)
 
-- [HENA: Hierarchically Evolving Neural Automata](https://docs.causality.in/hena/repository)
+## Developer docs
 
-- [MONAD Formal Mathematics](https://docs.causality.in/monad/formal)
-
-- [Getting started](https://docs.causality.in/monad/getting-started)
-
-- [The kernel](https://docs.causality.in/monad/kernel)
-
-- [MONAD as a library](https://docs.causality.in/monad/library-design)
-
-- [Working on the mathematics](https://docs.causality.in/monad/mathematics)
+- [Reckon](https://docs.causality.in/reckon/overview)
 
 - [MONAD](https://docs.causality.in/monad/overview)
 
-- [MONAD: Minimal Ontological Notions for Axiomatic Distinction](https://docs.causality.in/monad/repository)
-
-- [Resource admission and slot conformance](https://docs.causality.in/muon/admission)
-
-- [Building](https://docs.causality.in/muon/building)
-
 - [MUON](https://docs.causality.in/muon/overview)
 
-- [MUON: Micro-Unit Operating Network](https://docs.causality.in/muon/repository)
-
-- [Plan a training or evaluation run](https://docs.causality.in/muon/training)
-
-- [Building](https://docs.causality.in/q-hena/building)
-
-- [Q-HENA](https://docs.causality.in/q-hena/overview)
-
-- [Q-HENA: Quantum HENA](https://docs.causality.in/q-hena/repository)
-
-- [Fork additions](https://docs.causality.in/q-hena/source/LICENSE-ADDITIONS)
-
-- [Building](https://docs.causality.in/q-muon/building)
+- [HENA](https://docs.causality.in/hena/overview)
 
 - [Q-MUON](https://docs.causality.in/q-muon/overview)
 
-- [Q-MUON: Quantum MUON](https://docs.causality.in/q-muon/repository)
+- [Q-HENA](https://docs.causality.in/q-hena/overview)
 
-- [Fork additions](https://docs.causality.in/q-muon/source/LICENSE-ADDITIONS)
+- [Full developer documentation index](https://docs.causality.in/llms.txt)
 
-- [Reckon Architecture](https://docs.causality.in/reckon/architecture)
-
-- [Reckon Examples](https://docs.causality.in/reckon/contributing/examples)
-
-- [Build the API references](https://docs.causality.in/reckon/contributing/python-reference)
-
-- [Run and extend the tests](https://docs.causality.in/reckon/contributing/tests)
-
-- [Export observations from a local run](https://docs.causality.in/reckon/daemon)
-
-- [Debugger data and views](https://docs.causality.in/reckon/debugger)
-
-- [Reckon Debugger Application](https://docs.causality.in/reckon/debugger/application)
-
-- [Reckon Visualization Components](https://docs.causality.in/reckon/debugger/components)
-
-- [Reckon Visualization UI](https://docs.causality.in/reckon/debugger/interface)
-
-- [Key-door export demonstration](https://docs.causality.in/reckon/debugger/key-door-example)
-
-- [Reckon Viz Module](https://docs.causality.in/reckon/debugger/server)
-
-- [Entropy, Coarse-Graining, and the Conditional Emergence of Arrows](https://docs.causality.in/reckon/entropy-and-coarse-graining)
-
-- [Planned evaluation contract](https://docs.causality.in/reckon/evaluation-contract)
-
-- [Evaluation Metrics](https://docs.causality.in/reckon/evaluation-metrics)
-
-- [Continual retention confirmation](https://docs.causality.in/reckon/experiments/continual-confirmation)
-
-- [Tutor memory comparison](https://docs.causality.in/reckon/experiments/tutor-confirmation)
-
-- [Frequently Asked Questions](https://docs.causality.in/reckon/faq)
-
-- [Framework overview](https://docs.causality.in/reckon/framework)
-
-- [Glossary](https://docs.causality.in/reckon/glossary)
-
-- [Reckon Memory Debugger](https://docs.causality.in/reckon/http-api)
-
-- [Installation and a first run](https://docs.causality.in/reckon/installation)
-
-- [Reckon Rust Core](https://docs.causality.in/reckon/kernel)
-
-- [Learning as a special case](https://docs.causality.in/reckon/learning)
-
-- [Mathematical Core](https://docs.causality.in/reckon/mathematical-core)
-
-- [How the memory manager works](https://docs.causality.in/reckon/memory-manager)
-
-- [Reckon Notebooks](https://docs.causality.in/reckon/notebooks)
-
-- [Operational Causality (Resource-Indexed Influence)](https://docs.causality.in/reckon/operational-causality)
-
-- [The Reckon laboratory manual](https://docs.causality.in/reckon/overview)
-
-- [Problem and Context](https://docs.causality.in/reckon/problem)
-
-- [Reckon protocol reference](https://docs.causality.in/reckon/protocol)
-
-- [Reckon Python API](https://docs.causality.in/reckon/python-api)
-
-- [Core API](https://docs.causality.in/reckon/python-api/core)
-
-- [Memory API](https://docs.causality.in/reckon/python-api/memory)
-
-- [Reckon core module](https://docs.causality.in/reckon/python/core)
-
-- [Reckon memory module](https://docs.causality.in/reckon/python/memory)
-
-- [Reckon Metrics Module](https://docs.causality.in/reckon/python/metrics)
-
-- [Reckon Main Module](https://docs.causality.in/reckon/python/overview)
-
-- [Reckon Python Package](https://docs.causality.in/reckon/python/source-overview)
-
-- [Reckon Tasks Module](https://docs.causality.in/reckon/python/tasks)
-
-- [Python wire messages and RPC](https://docs.causality.in/reckon/python/wire-messages)
-
-- [References and Orientation Leads](https://docs.causality.in/reckon/references)
-
-- [Reckon laboratory](https://docs.causality.in/reckon/repository)
-
-- [Reproducibility](https://docs.causality.in/reckon/reproducibility)
-
-- [Retrodiction is an Inverse Problem (Identifiability, Instability, Noise)](https://docs.causality.in/reckon/retrodiction)
-
-- [@rtepl/reckon-client](https://docs.causality.in/reckon/sdk/typescript)
-
-- [Security Policy](https://docs.causality.in/reckon/security)
-
-- [Tasks and benchmarks](https://docs.causality.in/reckon/tasks-and-benchmarks)
 
 

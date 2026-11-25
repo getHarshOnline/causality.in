@@ -2,8 +2,6 @@ Title: From summary to repair
 
 [Read HTML](https://causality.in/collections/changing-descriptions/from-summary-to-repair/)
 
-Author: Harsh Joshi
-
 A summary can omit a distinction while an accessible source preserves the means to recover it. That possibility changes what a useful record needs to keep, but only after we understand what was lost and what another read can supply.
 
 The order of this inquiry follows that dependency. First establish which answer the summary can no longer give. Then ask whether the remaining resources let an observer reach it. Only then can a sequence of queries be priced as a repair: a cheap first question may leave an expensive branch, or no feasible branch at all. Storage and access together determine the promise. Losing the source changes what the same retained bytes can support.

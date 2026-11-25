@@ -2,8 +2,6 @@ Title: Blog
 
 [Read HTML](https://causality.in/blog/)
 
-Author: Harsh Joshi
-
 
 
 Page 1 of 1

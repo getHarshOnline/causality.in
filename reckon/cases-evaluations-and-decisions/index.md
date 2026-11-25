@@ -14,7 +14,7 @@ Imagine two teams testing whether a memory rule helps an agent remember an early
 
 ## Reuse the same case
 
-In the design, the two teams name one version of the clue sequence and its expected outcomes. The curator keeps where it came from and how it may be used. A correction gets a new version, leaving the earlier one available to explain past results. [HENA](https://causality.in/hena/) keeps its own live records and decides how to use them; [Scope](https://rawthoughts.in/scope/)'s context stays derived from what Pale and Weave hold, and a curated case changes none of it.
+In the design, the two teams name one version of the clue sequence and its expected outcomes. The curator keeps where it came from and how it may be used. A correction gets a new version, leaving the earlier one available to explain past results. [HENA](https://causality.in/hena/) keeps its own live records and decides how to use them; [Scope](https://rawthoughts.in/scope/) (on RawThoughts)'s context stays derived from what Pale and Weave hold, and a curated case changes none of it.
 
 <a id="ask-an-evaluator-a-bounded-question"></a>
 
@@ -32,9 +32,12 @@ If the owner accepts, rejects or defers the candidate, the record identifies the
 
 An ordinary evaluation can stand on its own. Promoting a learned change needs the case, comparison and owner's decision together, followed by the artifact owner's release checks and the caller's choice to use it. Applying a correction to today's work does not have to wait for that learning process.
 
-A correction from everyday work can supply a case: what information was available, what the agent did, what the person changed and what happened later. Permission to reuse those sources matters. The correction tells us what someone wanted; the later outcome helps test whether it worked. The same cases can inform comparisons of tools, skills, policies or a successor to [Counsel's local judge](https://rawthoughts.in/counsel/).
+A correction from everyday work can supply a case: what information was available, what the agent did, what the person changed and what happened later. Permission to reuse those sources matters. The correction tells us what someone wanted; the later outcome helps test whether it worked. The same cases can inform comparisons of tools, skills, policies or a successor to [Counsel's local judge](https://rawthoughts.in/counsel/) (on RawThoughts).
 
 The [developer manual](https://docs.causality.in/reckon/overview) covers the implemented lab.
 
 
 Reading path: [Reckon](https://causality.in/reckon/) > [Cases, evaluations and decisions](https://causality.in/reckon/cases-evaluations-and-decisions/)
+
+
+Source code for [Reckon](https://github.com/getHarshOnline/reckon) is credited to [Harsh Joshi](https://getharsh.in/about/).

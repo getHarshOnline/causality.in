@@ -2,8 +2,6 @@ Title: Q-MUON mentions
 
 [Read HTML](https://causality.in/q-muon/mentions/)
 
-Author: Harsh Joshi
-
 
 
 Page 1 of 1

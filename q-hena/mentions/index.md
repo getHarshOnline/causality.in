@@ -2,8 +2,6 @@ Title: Q-HENA mentions
 
 [Read HTML](https://causality.in/q-hena/mentions/)
 
-Author: Harsh Joshi
-
 
 
 Page 1 of 1

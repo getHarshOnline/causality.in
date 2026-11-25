@@ -83,9 +83,9 @@ Reckon's wider [design for cases, evaluations and decisions](https://causality.i
 
 ### How Reckon relates to Scope and HENA
 
-[Scope asks which permitted context helps a task](https://rawthoughts.in/collections/systems/context-that-helps-the-work/when-context-helps/). A passage being retrieved or quoted does not answer that question. Reckon tests a related one under a memory budget: what changes when a record or retention rule changes? A result on one workload can help Scope design a comparison for its own tasks; Scope still has to test what works there.
+[Scope asks which permitted context helps a task](https://rawthoughts.in/collections/systems/context-that-helps-the-work/when-context-helps/) (on RawThoughts). A passage being retrieved or quoted does not answer that question. Reckon tests a related one under a memory budget: what changes when a record or retention rule changes? A result on one workload can help Scope design a comparison for its own tasks; Scope still has to test what works there.
 
-[HENA](https://causality.in/hena/) keeps its own swarm store and decides what to keep. It may keep it behind Reckon's record-store interface, designed and not yet published, so that Reckon can inspect and evaluate its records without HENA calling Reckon. Scope keeps only context derived from what Pale and Weave hold, and in the design requests evaluations through [Pale](https://rawthoughts.in/pale/understand-your-world/#use-connected-applications-for-their-own-strengths).
+[HENA](https://causality.in/hena/) keeps its own swarm store and decides what to keep. It may keep it behind Reckon's record-store interface, designed and not yet published, so that Reckon can inspect and evaluate its records without HENA calling Reckon. Scope keeps only context derived from what Pale and Weave hold, and in the design requests evaluations through [Pale](https://rawthoughts.in/pale/understand-your-world/#use-connected-applications-for-their-own-strengths) (on RawThoughts).
 
 <a id="availability-and-local-operation"></a>
 
@@ -101,3 +101,6 @@ The daemon's `ExportRun` returns the latest record snapshots observed by a named
 
 
 Reading path: [Reckon](https://causality.in/reckon/) > [Understand the memory laboratory](https://causality.in/reckon/understand-the-memory-laboratory/)
+
+
+Source code for [Reckon](https://github.com/getHarshOnline/reckon) is credited to [Harsh Joshi](https://getharsh.in/about/).

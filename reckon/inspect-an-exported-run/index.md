@@ -131,3 +131,6 @@ Press Ctrl+C in each server terminal when finished. Closing the browser tab does
 
 
 Reading path: [Reckon](https://causality.in/reckon/) > [Inspect an exported run](https://causality.in/reckon/inspect-an-exported-run/)
+
+
+Source code for [Reckon](https://github.com/getHarshOnline/reckon) is credited to [Harsh Joshi](https://getharsh.in/about/).

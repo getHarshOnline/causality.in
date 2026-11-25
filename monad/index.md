@@ -2,8 +2,6 @@ Title: MONAD
 
 [Read HTML](https://causality.in/monad/)
 
-Author: Harsh Joshi
-
 <a id="monad"></a>
 
 # MONAD
@@ -88,3 +86,6 @@ It shows a summary preserving availability while losing the distinction needed f
 **Do I need software to follow MONAD?**
 
 You can read the worked example without software. [Descriptions and repair](https://causality.in/monad/descriptions-and-repair/) then follows the same question into the Lean library and the Rust kernel.
+
+
+Source code for [MONAD](https://github.com/getHarshOnline/MONAD) is credited to [Harsh Joshi](https://getharsh.in/about/).

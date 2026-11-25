@@ -72,7 +72,7 @@ The longer-term design would train the units, routes and memory together and tes
 
 ## How HENA relates to Pale's explicit coordination
 
-[Pale](https://rawthoughts.in/pale/) describes an organisation's responsibilities and coordination explicitly, and HENA asks how more of that organisation could be learned through local interactions; [Causality's About page](https://causality.in/about/) sets out how the two relate. HENA would need MUON's unit and [MONAD](https://causality.in/monad/)'s account of how a description can change, and that need grows as the system organises itself.
+[Pale](https://rawthoughts.in/pale/) (on RawThoughts) describes an organisation's responsibilities and coordination explicitly, and HENA asks how more of that organisation could be learned through local interactions; [Causality's About page](https://causality.in/about/) sets out how the two relate. HENA would need MUON's unit and [MONAD](https://causality.in/monad/)'s account of how a description can change, and that need grows as the system organises itself.
 
 <a id="availability"></a>
 
@@ -82,3 +82,6 @@ With source access, developers can check the kernel crate in the [HENA repositor
 
 
 Reading path: [HENA](https://causality.in/hena/) > [How units form a collective](https://causality.in/hena/how-units-form-a-collective/)
+
+
+Source code for [HENA](https://github.com/getHarshOnline/HENA) is credited to [Harsh Joshi](https://getharsh.in/about/).

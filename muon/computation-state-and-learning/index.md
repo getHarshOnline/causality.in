@@ -68,7 +68,7 @@ If the many-unit design loses, the system can keep the strongest single or mixed
 
 ## A possible place in a working system
 
-[Counsel](https://rawthoughts.in/counsel/) is designed for local judgment within [Pale’s](https://rawthoughts.in/pale/) compiled organisation, and a future MUON unit might serve a judgment role if it improves that work; [Causality’s About page](https://causality.in/about/) sets out the architecture MUON and HENA explore at those two scales.
+[Counsel](https://rawthoughts.in/counsel/) (on RawThoughts) is designed for local judgment within [Pale’s](https://rawthoughts.in/pale/) (on RawThoughts) compiled organisation, and a future MUON unit might serve a judgment role if it improves that work; [Causality’s About page](https://causality.in/about/) sets out the architecture MUON and HENA explore at those two scales.
 
 <a id="availability"></a>
 
@@ -78,3 +78,6 @@ With the source checkouts, developers can compile the kernel crate in the [MUON 
 
 
 Reading path: [MUON](https://causality.in/muon/) > [Computation, state and learning](https://causality.in/muon/computation-state-and-learning/)
+
+
+Source code for [MUON](https://github.com/getHarshOnline/MUON) is credited to [Harsh Joshi](https://getharsh.in/about/).

@@ -2,8 +2,6 @@ Title: Changing descriptions
 
 [Read HTML](https://causality.in/collections/changing-descriptions/)
 
-Author: Harsh Joshi
-
 This collection is about systems whose description itself changes.
 
 A description offers a particular view of a thing. It may preserve every answer we currently need while collapsing states that a later question would separate. The difficulty appears when those states must become distinguishable again: is the answer merely hidden, was it discarded, or does the present language have no way to express it? Even when nothing is lost, different coordinates can leave us disagreeing about which quantities the description has recovered.

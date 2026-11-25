@@ -2,8 +2,6 @@ Title: MUON
 
 [Read HTML](https://causality.in/muon/)
 
-Author: Harsh Joshi
-
 <a id="muon"></a>
 
 # MUON
@@ -81,7 +79,7 @@ MUON starts with adapters for existing open-weight models. A smaller model desig
 
 **How does MUON relate to Counsel and Pale?**
 
-MUON studies a learning unit for the scale of work where [Counsel](https://rawthoughts.in/counsel/) supplies local judgments within [Pale’s](https://rawthoughts.in/pale/) explicit organisation, and HENA studies how such units learn to organise collectively; [Causality’s About page](https://causality.in/about/) sets out how those directions connect.
+MUON studies a learning unit for the scale of work where [Counsel](https://rawthoughts.in/counsel/) (on RawThoughts) supplies local judgments within [Pale’s](https://rawthoughts.in/pale/) (on RawThoughts) explicit organisation, and HENA studies how such units learn to organise collectively; [Causality’s About page](https://causality.in/about/) sets out how those directions connect.
 
 **Does the design require many small units to win?**
 
@@ -90,3 +88,6 @@ No. The comparison includes many identical units, one stronger unit, a mixture a
 **Where should I start?**
 
 Start with the road notice. [Computation, state and learning](https://causality.in/muon/computation-state-and-learning/) follows it into the next route answer and lays out the comparison between different reasoning units. [Three tests for a reasoning unit](https://causality.in/collections/composition-and-learning/from-unit-to-swarm/three-tests-for-a-reasoning-unit/) then explains why meeting an interface, being adequate for a task and replacing another model are separate claims.
+
+
+Source code for [MUON](https://github.com/getHarshOnline/MUON) is credited to [Harsh Joshi](https://getharsh.in/about/).

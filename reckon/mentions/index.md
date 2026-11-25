@@ -2,8 +2,6 @@ Title: Reckon mentions
 
 [Read HTML](https://causality.in/reckon/mentions/)
 
-Author: Harsh Joshi
-
 
 
 Page 1 of 1
@@ -18,3 +16,6 @@ Page 1 of 1
 - [Did the cache make it faster?](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/causal-inference-primer/)
 - [Entropy and a learning mind](https://causality.in/blog/entropy-and-a-learning-mind/)
 
+
+
+Source code for [Reckon](https://github.com/getHarshOnline/reckon) is credited to [Harsh Joshi](https://getharsh.in/about/).

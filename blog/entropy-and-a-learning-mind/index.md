@@ -62,7 +62,7 @@ The earlier [geometry thought experiment](https://causality.in/blog/the-ineffabl
 
 A mug's fate seems obvious. A learning system is less obliging. We have to define the special state, observe the change and test the capability. That is where the analogy becomes an experiment worth doing.
 
-[The autocorrect paradox](https://rawthoughts.in/blog/the-autocorrect-paradox/) approaches the problem through a decade of building AI products: why does a model keep getting almost good enough, and what work remains before it fits the task?
+[The autocorrect paradox](https://rawthoughts.in/blog/the-autocorrect-paradox/) (on RawThoughts) approaches the problem through a decade of building AI products: why does a model keep getting almost good enough, and what work remains before it fits the task?
 
 1. 
    

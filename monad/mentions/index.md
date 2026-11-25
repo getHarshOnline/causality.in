@@ -2,8 +2,6 @@ Title: MONAD mentions
 
 [Read HTML](https://causality.in/monad/mentions/)
 
-Author: Harsh Joshi
-
 
 
 Page 1 of 1
@@ -22,3 +20,6 @@ Page 1 of 1
 - [When the description must change](https://causality.in/collections/changing-descriptions/when-the-description-must-change/)
 - [The ineffable geometry](https://causality.in/blog/the-ineffable-geometry/)
 
+
+
+Source code for [MONAD](https://github.com/getHarshOnline/MONAD) is credited to [Harsh Joshi](https://getharsh.in/about/).

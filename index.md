@@ -2,8 +2,6 @@ Title: Some questions need another description.
 
 [Read HTML](https://causality.in/)
 
-Author: Harsh Joshi
-
 <a id="description"></a>
 
 <a id="some-questions-need-another-description"></a>
@@ -50,7 +48,7 @@ MUON investigates the adaptive local unit. HENA asks how many such units can lea
 
 ## An organisation that can learn.
 
-[Pale](https://rawthoughts.in/pale/) makes responsibilities, capabilities and coordination explicit, and HENA explores whether more of that organisation could arise from intent through local interactions, a direction [the About page](https://causality.in/about/) sets out.
+[Pale](https://rawthoughts.in/pale/) (on RawThoughts) makes responsibilities, capabilities and coordination explicit, and HENA explores whether more of that organisation could arise from intent through local interactions, a direction [the About page](https://causality.in/about/) sets out.
 
 ![Sparse rose points carried along long, sweeping currents.](https://causality.in/assets/renditions/relation-field/scene-4.webp)
 

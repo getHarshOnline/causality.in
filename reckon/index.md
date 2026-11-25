@@ -2,13 +2,11 @@ Title: Reckon
 
 [Read HTML](https://causality.in/reckon/)
 
-Author: Harsh Joshi
-
 <a id="reckon"></a>
 
 # Reckon
 
-What should an agent keep when it has room for only a few records? Reckon measures what changes outcomes for what it costs, with the uncertainty shown. The laboratory runs locally for Causality’s research. The problem in front is serving RawThoughts’ agent tools with the same comparison, so a proposed improvement can be compared before anyone decides to use it. The cases for that comparison come from [Pale](https://rawthoughts.in/pale/)'s genealogy, its history of what each agent was given, what it did and what followed; the laboratory here runs without it.
+What should an agent keep when it has room for only a few records? Reckon measures what changes outcomes for what it costs, with the uncertainty shown. The laboratory runs locally for Causality’s research. The problem in front is serving RawThoughts’ agent tools with the same comparison, so a proposed improvement can be compared before anyone decides to use it. The cases for that comparison come from [Pale](https://rawthoughts.in/pale/) (on RawThoughts)'s genealogy, its history of what each agent was given, what it did and what followed; the laboratory here runs without it.
 
 Use the local laboratory to [compare two replay budgets](https://causality.in/reckon/compare-replay-budgets/) or [inspect a saved run](https://causality.in/reckon/inspect-an-exported-run/).
 
@@ -85,8 +83,11 @@ A causal claim needs a test that changes the record as intended, states the assu
 
 **Does Reckon own HENA’s or Scope’s memory?**
 
-[HENA](https://causality.in/hena/) keeps its own swarm store and decides what to keep; [Scope](https://rawthoughts.in/scope/) keeps only context derived from what Pale and Weave hold. Reckon runs a separate lab. Its wider services concern experiment inputs, results and decisions.
+[HENA](https://causality.in/hena/) keeps its own swarm store and decides what to keep; [Scope](https://rawthoughts.in/scope/) (on RawThoughts) keeps only context derived from what Pale and Weave hold. Reckon runs a separate lab. Its wider services concern experiment inputs, results and decisions.
 
 **How do I run the laboratory?**
 
 The lab runs on your own machine. Start with [the laboratory guide](https://causality.in/reckon/understand-the-memory-laboratory/), then [compare two replay budgets](https://causality.in/reckon/compare-replay-budgets/).
+
+
+Source code for [Reckon](https://github.com/getHarshOnline/reckon) is credited to [Harsh Joshi](https://getharsh.in/about/).

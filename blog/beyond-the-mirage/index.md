@@ -34,7 +34,7 @@ DeepMind's 2022 Chinchilla study compared more than 400 training runs. Its compu
 
 Parameter count had concealed how the budget was allocated. Training efficiency, data and the cost of using the resulting model belonged in the comparison. The result makes progress an engineering question: what does this allocation of resources actually buy? Its compute-optimal training relation still has to be distinguished from an optimum for a particular inference workload.
 
-That is a useful correction to the spectacle of the ever-larger number. Better engineering can change what the same resources buy. For how that possibility reaches an ordinary business, [Evolution of AI, and its future in B2B](https://daostudio.in/blog/evolution-of-ai-and-its-future-in-b2b/) follows the interface through to the work behind it.
+That is a useful correction to the spectacle of the ever-larger number. Better engineering can change what the same resources buy. For how that possibility reaches an ordinary business, [Evolution of AI, and its future in B2B](https://daostudio.in/blog/evolution-of-ai-and-its-future-in-b2b/) (on DAO Studio) follows the interface through to the work behind it.
 
 <a id="the-mirage-of-emergence"></a>
 
@@ -136,7 +136,7 @@ Trusted execution environments can isolate a computation from parts of the host 
 
 Zero-knowledge machine learning proposes proofs that a stated computation was carried out without revealing all the underlying private information. A proof of inference can establish execution of the represented model and operation; it does not establish that the model's answer is true or that the chosen objective is acceptable. Proof generation and the faithful representation of the computation introduce costs and assumptions of their own.<sup><a id="fnref-note-7a6b6d6c"></a>[18](#fn-note-7a6b6d6c)</sup>
 
-The earlier blockchain essay, [A precognition court for AI](https://daostudio.in/collections/protocols-and-reuse/a-court-before-the-consequence/a-precognition-court-for-ai/), explores a related intuition: make relevant operations inspectable and constrain what a system can do through the surrounding arrangement. It is a deliberately abstract argument, not a claim that a ledger solves intelligence or control. The useful question remains what is verified, by whom, and what the verification leaves outside its scope.
+The earlier blockchain essay, [A precognition court for AI](https://daostudio.in/collections/protocols-and-reuse/a-court-before-the-consequence/a-precognition-court-for-ai/) (on DAO Studio), explores a related intuition: make relevant operations inspectable and constrain what a system can do through the surrounding arrangement. It is a deliberately abstract argument, not a claim that a ledger solves intelligence or control. The useful question remains what is verified, by whom, and what the verification leaves outside its scope.
 
 <a id="constrained-agency"></a>
 
@@ -170,7 +170,7 @@ The proposed path is a sequence of demanding phase transitions in what can be ex
 
 The measure of progress should therefore be more than model size or fluent prose. The ambition is robust causal reasoning, demonstrable alignment with the task and control over consequential action. Each needs evidence of its own. A matrix helps only if it makes those demands clearer.
 
-The economic question continues in [One Yardstick, One Clock](https://post-agi-economics.org/blog/one-yardstick-one-clock/) and [The Red Pill](https://post-agi-economics.org/blog/the-red-pill/): even when an agent can do the work, how does the economy adapt, and who can buy what it produces? The mathematical question continues through [changing descriptions](https://causality.in/collections/changing-descriptions/): which distinctions must a model retain to answer the next question? [The ineffable geometry](https://causality.in/blog/the-ineffable-geometry/) and [Entropy and a learning mind](https://causality.in/blog/entropy-and-a-learning-mind/) approach that question from the earlier geometric and learning intuitions.
+The economic question continues in [One Yardstick, One Clock](https://post-agi-economics.org/blog/one-yardstick-one-clock/) (on Post-AGI Economics) and [The Red Pill](https://post-agi-economics.org/blog/the-red-pill/) (on Post-AGI Economics): even when an agent can do the work, how does the economy adapt, and who can buy what it produces? The mathematical question continues through [changing descriptions](https://causality.in/collections/changing-descriptions/): which distinctions must a model retain to answer the next question? [The ineffable geometry](https://causality.in/blog/the-ineffable-geometry/) and [Entropy and a learning mind](https://causality.in/blog/entropy-and-a-learning-mind/) approach that question from the earlier geometric and learning intuitions.
 
 Yay, you made it to the end. Congratulations.
 

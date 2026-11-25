@@ -2,8 +2,6 @@ Title: HENA
 
 [Read HTML](https://causality.in/hena/)
 
-Author: Harsh Joshi
-
 <a id="hena"></a>
 
 # HENA
@@ -16,7 +14,7 @@ Can a warning read by one small unit reach another unit’s later decision? HENA
 
 ## From arranging a system to learning its arrangement
 
-[Pale](https://rawthoughts.in/pale/) coordinates work through declared responsibilities and capabilities, while HENA asks how a division of work and a hierarchy could arise as units learn to solve tasks together, as [Causality’s About page](https://causality.in/about/) sets out.
+[Pale](https://rawthoughts.in/pale/) (on RawThoughts) coordinates work through declared responsibilities and capabilities, while HENA asks how a division of work and a hierarchy could arise as units learn to solve tasks together, as [Causality’s About page](https://causality.in/about/) sets out.
 
 - [Docs](https://docs.causality.in/hena/overview "Developer documentation") 
 
@@ -84,3 +82,6 @@ HENA is Pale’s research successor in one limited sense: its learned organisati
 **Could it serve as a model behind a coding harness?**
 
 A coding harness such as Claude Code or Codex could use a HENA-backed model as its model provider. The harness still decides which actions to allow and carries them out.
+
+
+Source code for [HENA](https://github.com/getHarshOnline/HENA) is credited to [Harsh Joshi](https://getharsh.in/about/).

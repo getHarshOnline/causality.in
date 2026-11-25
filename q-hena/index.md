@@ -2,8 +2,6 @@ Title: Q-HENA
 
 [Read HTML](https://causality.in/q-hena/)
 
-Author: Harsh Joshi
-
 <a id="q-hena"></a>
 
 # Q-HENA

@@ -203,3 +203,6 @@ If import is refused, keep the original files and correct the reported format or
 
 
 Reading path: [Reckon](https://causality.in/reckon/) > [Compare two replay budgets](https://causality.in/reckon/compare-replay-budgets/)
+
+
+Source code for [Reckon](https://github.com/getHarshOnline/reckon) is credited to [Harsh Joshi](https://getharsh.in/about/).

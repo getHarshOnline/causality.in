@@ -2,8 +2,6 @@ Title: HENA mentions
 
 [Read HTML](https://causality.in/hena/mentions/)
 
-Author: Harsh Joshi
-
 
 
 Page 1 of 1
@@ -20,3 +18,6 @@ Page 1 of 1
 - [The cost of understanding](https://rawthoughts.in/collections/systems/making-a-working-world-intelligible/the-cost-of-understanding/)
 - [Building a place to think](https://getharsh.in/collections/building-products-and-teams/building-a-place-to-think/)
 
+
+
+Source code for [HENA](https://github.com/getHarshOnline/HENA) is credited to [Harsh Joshi](https://getharsh.in/about/).

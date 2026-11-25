@@ -2,8 +2,6 @@ Title: Composition and learning
 
 [Read HTML](https://causality.in/collections/composition-and-learning/)
 
-Author: Harsh Joshi
-
 This collection is about how a computation's organisation, which parts interact and what they keep, can be learned rather than declared.
 
 A reasoning architecture can contain more than a set of capable parts. Which parts interact, what experience they retain and how their roles change can themselves become learned computation. The attraction is an organisation shaped by the task: local specialisation, useful memory and information reaching the place where it changes an answer.

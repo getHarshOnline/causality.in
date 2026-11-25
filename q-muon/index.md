@@ -2,8 +2,6 @@ Title: Q-MUON
 
 [Read HTML](https://causality.in/q-muon/)
 
-Author: Harsh Joshi
-
 <a id="q-muon"></a>
 
 # Q-MUON

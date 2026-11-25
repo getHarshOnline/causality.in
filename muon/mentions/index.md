@@ -2,8 +2,6 @@ Title: MUON mentions
 
 [Read HTML](https://causality.in/muon/mentions/)
 
-Author: Harsh Joshi
-
 
 
 Page 1 of 1
@@ -16,3 +14,6 @@ Page 1 of 1
 - [The intelligence between the parts](https://getharsh.in/collections/meaning-models-and-creative-practice/the-intelligence-between-the-parts/)
 - [How Pale fits together](https://rawthoughts.in/collections/systems/making-a-working-world-intelligible/architecture/)
 
+
+
+Source code for [MUON](https://github.com/getHarshOnline/MUON) is credited to [Harsh Joshi](https://getharsh.in/about/).

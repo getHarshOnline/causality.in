@@ -16,7 +16,7 @@ Suppose two [Q-MUON](https://causality.in/q-muon/) units need to perform one joi
 
 Q-MUON concerns one unit’s computation. Q-HENA concerns which contributions reach each other, what the group remembers and how it organises a response. The joint operation illustrates why the group needs its own way to allocate resources and recover work.
 
-[Pale](https://rawthoughts.in/pale/) declares an organisation’s coordination explicitly where HENA asks how more of it could arise from intent, and Q-HENA asks what changes when that interaction involves quantum state, correlations and measurement; [Causality’s About page](https://causality.in/about/) sets out the comparison.
+[Pale](https://rawthoughts.in/pale/) (on RawThoughts) declares an organisation’s coordination explicitly where HENA asks how more of it could arise from intent, and Q-HENA asks what changes when that interaction involves quantum state, correlations and measurement; [Causality’s About page](https://causality.in/about/) sets out the comparison.
 
 <a id="quantum-communication-and-collective-memory"></a>
 

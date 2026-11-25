@@ -16,7 +16,7 @@ That is the constructive question in [HENA](https://causality.in/hena/). Sparse 
 
 ## From an explicit organisation to a learned one
 
-[Pale](https://rawthoughts.in/pale/) makes an organisation explicit enough to operate: responsibilities, capabilities, context and coordination are described and compiled. HENA’s architectural direction goes further. Could more of that organisation arise and evolve from intent through interactions among local units? The intended result is a collective model whose learned organisation carries part of its intelligence, rather than a fixed workflow arranging otherwise unchanged models.
+[Pale](https://rawthoughts.in/pale/) (on RawThoughts) makes an organisation explicit enough to operate: responsibilities, capabilities, context and coordination are described and compiled. HENA’s architectural direction goes further. Could more of that organisation arise and evolve from intent through interactions among local units? The intended result is a collective model whose learned organisation carries part of its intelligence, rather than a fixed workflow arranging otherwise unchanged models.
 
 This is why hierarchy matters beyond an attractive arrangement of nodes. Specialisation, memory and routes would have to become useful responses to what the collective is trying to do. A future HENA could stand alone; a surrounding harness could retain its responsibilities for external effects and resources while less of the internal coordination needed to be specified by hand. The cue example gives one small demand on that larger architecture.
 

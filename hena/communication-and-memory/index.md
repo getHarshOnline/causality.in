@@ -50,3 +50,6 @@ The result might show that a route helps, that communication costs consume the g
 
 
 Reading path: [HENA](https://causality.in/hena/) > [Why communication and memory are computation](https://causality.in/hena/communication-and-memory/)
+
+
+Source code for [HENA](https://github.com/getHarshOnline/HENA) is credited to [Harsh Joshi](https://getharsh.in/about/).

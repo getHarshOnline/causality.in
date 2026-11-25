@@ -45,3 +45,6 @@ The [surprise inquiry](https://causality.in/collections/composition-and-learning
 
 
 Reading path: [MUON](https://causality.in/muon/) > [How experience can change a unit](https://causality.in/muon/how-experience-changes-a-unit/)
+
+
+Source code for [MUON](https://github.com/getHarshOnline/MUON) is credited to [Harsh Joshi](https://getharsh.in/about/).

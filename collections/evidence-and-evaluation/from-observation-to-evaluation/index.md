@@ -2,8 +2,6 @@ Title: From observation to evaluation
 
 [Read HTML](https://causality.in/collections/evidence-and-evaluation/from-observation-to-evaluation/)
 
-Author: Harsh Joshi
-
 A score cannot repair the attribution it was fed. Before estimating a memory record's usefulness, we need a comparison that gives its contribution a meaning. Before trusting the resulting estimate, we need to understand how it behaves and what the evaluation left unexamined.
 
 That dependency supplies the order here: an intervention and its alternatives, an update from attributed experience, then scrutiny of the resulting comparison and the completed experiments that give it an outcome and a price. A smooth or reproducible score can still track the wrong contribution. Separating those stages lets a failure reach the stage capable of explaining it, instead of demanding a more confident number from the last one.

@@ -2,8 +2,6 @@ Title: What does the measurement establish?
 
 [Read HTML](https://causality.in/collections/evidence-and-evaluation/)
 
-Author: Harsh Joshi
-
 This collection asks what a measurement establishes about a change, and why a candidate must not choose the test that admits it.
 
 The decision to keep a record changes what an agent can later retrieve. Retrieval changes what it does, and what it does changes the outcomes available for scoring that record. Usefulness is entangled with the policy that gives a record its chance to be useful.

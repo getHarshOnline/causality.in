@@ -2,8 +2,6 @@ Title: Search
 
 [Read HTML](https://causality.in/search/)
 
-Author: Harsh Joshi
-
 
 
 Page 1 of 5

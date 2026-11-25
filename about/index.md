@@ -2,8 +2,6 @@ Title: About Causality
 
 [Read HTML](https://causality.in/about/)
 
-Author: Harsh Joshi
-
 Can a law depend not only on a path’s past, but on where that path can go? Causality follows that question into the descriptions we use: what would let a system change the way it represents a problem, the questions it can ask and how it organises its computation?
 
 A system can change its state, learn a skill or revise its declared world while keeping the language of that world fixed. Changing the language reaches another level: the same old description may now mean something different. Changing how the system draws distinctions reaches deeper still. Causality joins mathematical and architectural research across that ladder, asking what each change preserves and what it makes possible.
@@ -44,9 +42,9 @@ HENA investigates intelligence arising among units: learned sparse communication
 
 What would a learned architecture have to improve?
 
-[Pale](https://rawthoughts.in/pale/) gives people and agents an explicit account of their work: who is responsible, what each participant may do and which context a task needs. Its local compiler checks that declared account. HENA asks a further question: could useful organisation emerge and adapt through local interactions, so less of it has to be prescribed?
+[Pale](https://rawthoughts.in/pale/) (on RawThoughts) gives people and agents an explicit account of their work: who is responsible, what each participant may do and which context a task needs. Its local compiler checks that declared account. HENA asks a further question: could useful organisation emerge and adapt through local interactions, so less of it has to be prescribed?
 
-[Counsel](https://rawthoughts.in/counsel/) supplies local judgments within Pale’s organisation. MUON and HENA investigate those two scales as a learning architecture: the unit and the collective. HENA is Pale’s research successor: if its learned organisation proves useful, it could take over some of the coordination Pale describes explicitly. Pale, which sits around the coding agents and applications people already use, would then stand to it as a harness stands to the model it runs, more guardrail than organiser, still controlling permissions and external actions. HENA needs MUON’s unit and MONAD’s account of how a description can change, and the more the system organises itself, the more it depends on both. The mechanism remains open, and Pale’s own usefulness does not wait for it. In Harsh’s account HENA is an evolving swarm of MUONs that reasons about what could have happened, the counterfactual rung of the ACI framework in [Beyond the Mirage](https://causality.in/blog/beyond-the-mirage/). The products come first because they let agents see what a change would affect before they make it.
+[Counsel](https://rawthoughts.in/counsel/) (on RawThoughts) supplies local judgments within Pale’s organisation. MUON and HENA investigate those two scales as a learning architecture: the unit and the collective. HENA is Pale’s research successor: if its learned organisation proves useful, it could take over some of the coordination Pale describes explicitly. Pale, which sits around the coding agents and applications people already use, would then stand to it as a harness stands to the model it runs, more guardrail than organiser, still controlling permissions and external actions. HENA needs MUON’s unit and MONAD’s account of how a description can change, and the more the system organises itself, the more it depends on both. The mechanism remains open, and Pale’s own usefulness does not wait for it. In Harsh’s account HENA is an evolving swarm of MUONs that reasons about what could have happened, the counterfactual rung of the ACI framework in [Beyond the Mirage](https://causality.in/blog/beyond-the-mirage/). The products come first because they let agents see what a change would affect before they make it.
 
 Keep the experience that helps. Explore the substrates that could carry it.
 
@@ -56,4 +54,4 @@ Keep the experience that helps. Explore the substrates that could carry it.
 
 Planning over predictions, whole-trajectory constraints and equations with future states give the originating intuition different mathematical forms. [The endpoint example](https://causality.in/blog/future-without-retrocausation/) follows what information each form requires.
 
-Causality is a research programme within RawThoughts Enterprises Private Limited, authored by [Harsh Joshi](https://getharsh.in/about/).
+Causality is a research programme within RawThoughts Enterprises Private Limited, authored by [Harsh Joshi](https://getharsh.in/about/) (on getHarsh).
